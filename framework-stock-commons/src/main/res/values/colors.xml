@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A0白色 -->
+    <color name="JY_A0">#FFFFFF</color>
+    <!-- A1 红色 -->
+    <color name="JY_A1">#EB2227</color>
+    <!-- A2绿色 -->
+    <color name="JY_A2">#00A651</color>
+    <!-- A3黄色 -->
+    <color name="JY_A3">#FCEE21</color>
+    <!-- A4蓝灰色 -->
+    <color name="JY_A4">#333332</color>
+    <!-- A5蓝色 -->
+    <color name="JY_A5">#81D1E0</color>
+    <!-- A6深 灰色 -->
+    <color name="JY_A6">#929496</color>
+    <!-- A7 灰色 -->
+    <color name="JY_A7">#676767</color>
+    <!-- A8 橘黄色 -->
+    <color name="JY_A8">#F6921D</color>
+    <!-- A9 紫色 -->
+    <color name="JY_A9">#FF00FF</color>
+    <!-- A10 浅灰色 -->
+    <color name="JY_A10">#EDEDEE</color>
+    <!-- A11 蓝色 -->
+    <color name="JY_A11">#395585</color>
+    <!-- A12 浅灰 -->
+    <color name="JY_A12">#969969</color>
+     <!-- A13 -->
+    <color name="JY_A13">#904200</color>
+     <!-- A14  中信建投 TAB红 -->
+    <color name="JY_A14">#a20101</color>
+     <!-- A15  中信建投 TAB BUTTON 白   其他券商为黑-->
+    <color name="JY_A15">#FF000000</color>
+     <!-- A16 中信建投 TAB BUTTON 黑   其他券商为白-->
+    <color name="JY_A16">#FFFFFFFF</color>
+    <!-- A17 黑色 -->
+    <color name="JY_A17">#000000</color>
+    
+    <!-- 首页自选股涨 -->
+	<color name="home_userstock_z">#ffec1b23</color>
+	<!-- 首页自选股跌 -->
+	<color name="home_userstock_d">#ff00a550</color>
+	<!-- 首页自选股平 -->
+	<color name="home_userstock_p">#ff403f41</color>
+	<!-- 涨 -->
+	<color name="hq_z">#FFFF3434</color>
+	<!-- 平 -->
+	<color name="hq_p">#FFBEBEBE</color>
+	<!-- 跌 -->
+	<color name="hq_d">#FF009900</color>
+	<!-- 交易 -涨 -->
+	<color name="jy_z">#FFEB2227</color>
+	<!-- 交易 -平 -->
+	<color name="jy_p">#FF676767</color>
+	<!-- 交易 -跌 -->
+	<color name="jy_d">#FF00A651</color>
+	<color name="userstock_listitem_dragndrop_background">#66000000</color>
+	<!-- 浅灰 -->
+	<color name="light_gray">#bebebe</color>
+	<!-- 资讯列表点击颜色 -->
+	<color name="zx_onclick_color">#7e8588</color>
+	<!-- 资讯标题颜色 -->
+	<color name="zx_title_color">#303030</color>
+	<!-- 资讯时间颜色 -->
+	<color name="zx_time_color">#888888</color>
+	
+	 <!-- 键盘精灵编辑框边框颜色 -->
+    <color name="roma_tg_search_edit_frame_color">#4e5f71</color>
+    <!-- 搜索列表背景颜色 -->
+    <color name="roma_tg_content_bg_color">#ededed</color>
+    <!-- 股票名称字体颜色 -->
+    <color name="roma_tg_search_stockName_color">#3f3f3f</color>
+    <!-- 股票代码字体颜色 -->
+    <color name="roma_tg_search_stockCode_color">#9c9c9c</color>
+    <!-- 停牌标识背景颜色 -->
+    <color name="roma_tg_search_suspension_bg_color">#bbbbbb</color>
+    <!-- 涨停标识背景颜色 -->
+    <color name="roma_tg_search_z_bg_color">#ff4d4d</color>
+    <!-- 跌停标识背景颜色 -->
+    <color name="roma_tg_search_d_bg_color">#5fb853</color>
+    <color name="zxjt_tougu_divider_color">#fff2f4f8</color>
+
+    <!--列表页主标题 未读-->
+    <color name="listmaintitleColor_unread">#333333</color>
+    <!--列表页副标题 已读-->
+    <color name="listmaintitleColor_read">#888888</color>
+    <!--时间未读 -->
+    <color name="timeColor_unread">#555555</color>
+    <!--时间已读 -->
+    <color name="timeColor_read">#888888</color>
+
+    <!-- 首页主界面 -->
+    <color name="hp_color_search_hint">#ffc0c0c0</color>
+    <color name="hp_color_shortcut_lable">#ff313131</color>
+
+    <color name="translucent_background">#CD000000</color>
+    <color name="translucent_background2">#00000000</color>
+    <color name="translucent_background3">#7F000000</color>
+
+    <!-- Dialog自定义对话框 -->
+    <color name="yt_dialog_dividerColor">#EDEDED</color>
+    <color name="yt_dialog_cancel_textColor">#9B9B9B</color>
+    <color name="yt_dialog_confirm_textColor">#FF3D00</color>
+
+
+    <color name="gxs_red">#e32f37</color>
+    <color name="gxs_red2">#f2363e</color>
+    <color name="gxs_red3">#ff757c</color>
+    <color name="gxs_green">#11ad73</color>
+    <color name="gxs_actionbar">#e32f37</color>
+    <color name="gxs_actionbar2">#e32f37</color>
+    <color name="gxs_blue">#5491ff</color>
+    <color name="gxs_title">#333333</color>
+    <color name="gxs_sub_title">#666666</color>
+    <color name="gxs_sub_title2">#999999</color>
+    <color name="gxs_sub_title3">#666666</color>
+    <color name="gxs_line">#eeeeee</color>
+    <color name="gxs_bg">#f4f5f7</color>
+    <color name="gxs_space">#f4f5f6</color>
+    <color name="gxs_space2">#f5f5f9</color>
+    <color name="gxs_space3">#f5f5f5</color>
+    <color name="gxs_while">#ffffff</color>
+    <color name="gxs_is_read">#eeeeee</color>
+    <color name="gxs_msg_sub_title">#666666</color>
+    <color name="gxs_msg_sub_title2">#999999</color>
+
+    <color name="holo_gray_light">#33999999</color>
+
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+
+    <color name="note_red">#e32f37</color>
+    <color name="note_red2">#ff441f</color>
+    <color name="note_green">#11ad73</color>
+    <color name="note_actionbar">#e32f37</color>
+    <color name="note_actionbar2">#e32f37</color>
+    <color name="note_blue">#3F86FF</color>
+    <color name="note_title">#2e2e2e</color>
+    <color name="note_orange_title">#fc7946</color>
+    <color name="note_sub_title">#808080</color>
+    <color name="note_sub_title2">#c0c0c0</color>
+    <color name="note_sub_title3">#666666</color>
+    <color name="note_line">#eeeeee</color>
+    <color name="note_bg">#f4f5f7</color>
+    <color name="note_space">#f4f5f6</color>
+    <color name="note_space2">#f5f5f9</color>
+    <color name="note_while">#ffffff</color>
+    <color name="note_is_read">#eeeeee</color>
+    <color name="note_msg_sub_title">#666666</color>
+    <color name="note_msg_sub_title2">#999999</color>
+
+</resources>

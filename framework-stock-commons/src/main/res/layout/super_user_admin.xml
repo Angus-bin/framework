@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/ll_bottom"
+        >
+	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	        <!-- 内部版本号显示 -->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="2dp"
+	        android:orientation="horizontal" >
+			<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="内部版本号："
+	            android:textStyle="bold"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="@string/kds_inner_version_show"
+	            />
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="2dp"
+	        android:orientation="horizontal" >
+			<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="APP内置H5的版本："
+	            android:textStyle="bold"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:id="@+id/roma_H5_inner_version_show"
+	            />
+	        
+	    </LinearLayout>
+	    
+	      <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="2dp"
+	        android:orientation="horizontal" >
+			<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="正在使用的H5的版本："
+	            android:textStyle="bold"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:id="@+id/roma_H5_current_version_show"
+	            />
+	        
+	    </LinearLayout>
+	        
+	        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="2dp"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="app模式切换（重启生效）" 
+	            android:textStyle="bold"/>
+	
+	        <RadioGroup
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:orientation="horizontal" >
+	
+	            <RadioButton
+	                android:id="@+id/rb_debug_false_online"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="上线模式" />
+	
+	            <RadioButton
+	                android:id="@+id/rb_debug_true_beta"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="debug日志模式" />
+	        </RadioGroup>
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/ll_renzheng"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+			android:visibility="gone"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="认证地址:"
+	            android:textSize="16dip" 
+	            android:textStyle="bold"/>
+	
+	        <EditText
+	            android:id="@+id/edt_renzheng_server_address"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+				android:layout_weight="1"
+	            android:singleLine="true"
+	            android:textSize="16dip" 
+	            android:enabled="false"/>
+
+			<ToggleButton
+				android:id="@+id/roma_renzheng_btn"
+				android:layout_width="50dp"
+				android:layout_height="wrap_content"
+				android:background="#00ffffff"
+				android:button="@drawable/toggle_btn"
+				android:checked="true"
+				android:text=""
+				android:textOff=""
+				android:textOn=""
+				android:visibility="gone"/>
+
+	    </LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/ll_renzheng_port_number"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:orientation="horizontal"
+			android:visibility="gone">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="认证地址  Https端口: "
+				android:textSize="16dip"
+				android:textStyle="bold"/>
+
+			<EditText
+				android:id="@+id/edt_renzheng_addr_portNum"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:textSize="16dip"
+				android:inputType="number"
+				android:hint="请输入认证对应https端口号"/>
+		</LinearLayout>
+
+		<LinearLayout
+	        android:id="@+id/ll_hangqing"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+			android:visibility="gone"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="行情地址:"
+	            android:textSize="16dip" 
+	            android:textStyle="bold"/>
+	
+	        <EditText
+	            android:id="@+id/edt_hangqing_server_address"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+				android:layout_weight="1"
+	            android:singleLine="true"
+	            android:textSize="16dip" />
+
+			<ToggleButton
+				android:id="@+id/roma_hangqing_btn"
+				android:layout_width="50dp"
+				android:layout_height="wrap_content"
+				android:background="#00ffffff"
+				android:button="@drawable/toggle_btn"
+				android:checked="true"
+				android:text=""
+				android:textOff=""
+				android:textOn=""
+				android:visibility="gone"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/ll_zixun"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+			android:visibility="gone"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="资讯地址:"
+	            android:textSize="16dip" 
+	            android:textStyle="bold"/>
+	
+	        <EditText
+	            android:id="@+id/edt_zixun_server_address"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+				android:layout_weight="1"
+	            android:singleLine="true"
+	            android:textSize="16dip" />
+
+			<ToggleButton
+				android:id="@+id/roma_zixun_btn"
+				android:layout_width="50dp"
+				android:layout_height="wrap_content"
+				android:background="#00ffffff"
+				android:button="@drawable/toggle_btn"
+				android:checked="true"
+				android:text=""
+				android:textOff=""
+				android:textOn=""
+				android:visibility="gone"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/ll_jiaoyi"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+			android:visibility="gone"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="交易地址:"
+	            android:textSize="16dip" 
+	            android:textStyle="bold"/>
+	
+	        <EditText
+	            android:id="@+id/edt_trade_address"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+				android:layout_weight="1"
+	            android:singleLine="true"
+	            android:textSize="16dip" />
+
+			<ToggleButton
+				android:id="@+id/roma_jiaoyi_btn"
+				android:layout_width="50dp"
+				android:layout_height="wrap_content"
+				android:background="#00ffffff"
+				android:button="@drawable/toggle_btn"
+				android:checked="true"
+				android:text=""
+				android:textOff=""
+				android:textOn=""
+				android:visibility="gone"/>
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="配置信息地址：(重启生效)" 
+	            android:textStyle="bold"/>
+	
+	        <RadioGroup
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:orientation="horizontal" >
+	
+	            <RadioButton
+	                android:id="@+id/rb_online" 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="正式地址" />
+	            
+	            <RadioButton
+	                android:id="@+id/rb_beta"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="测试地址" />
+	
+	        </RadioGroup>
+	    </LinearLayout>
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+			 android:visibility="gone"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="交易模块H5开发(重启生效)" 
+	            android:textStyle="bold"/>
+	
+	        <RadioGroup
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:orientation="horizontal" >
+	
+	            <RadioButton
+	                android:id="@+id/rb_jiaoyi_online"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="上线模式" />
+	
+	            <RadioButton
+	                android:id="@+id/rb_jiaoyi_beta"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="SD卡debug模式" />
+	        </RadioGroup>
+	    </LinearLayout>
+	    
+	      <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+			  android:visibility="gone"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="16dp"
+	            android:text="H5模块切换(app须在交易模块H5开发上线模式并且在重启后才生效)" 
+	            android:textStyle="bold"/>
+	
+	        <RadioGroup
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:orientation="horizontal" >
+	
+	            <RadioButton
+	                android:id="@+id/rb_jiaoyi_zidai"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="使用自带H5模块" />
+	
+	            <RadioButton
+	                android:id="@+id/rb_jiaoyi_update"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="使用已下载H5更新模块" />
+	        </RadioGroup>
+	    </LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+	
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="确定" />
+    </LinearLayout>
+
+</RelativeLayout>

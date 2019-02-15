@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+     android:orientation="vertical" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<LinearLayout 
+     android:orientation="horizontal" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content"
+     android:background="@drawable/roma_edit_bg_bottom_null_line"
+     android:id="@+id/root"
+     >
+    
+	     <ImageView
+	          android:id="@+id/left_icon" 
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content" 
+	          android:layout_gravity="center_vertical"
+	          android:layout_marginLeft="25.0dip"
+	          android:src="@drawable/bgnull"
+	         />
+	     <LinearLayout 
+	         android:orientation="vertical" 
+		     android:layout_width="fill_parent" 
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="25.0dip"
+	         >
+		     <FrameLayout
+		          android:layout_width="fill_parent" 
+		     	  android:layout_height="wrap_content"
+		     	  android:minHeight="@dimen/setting_item_minheight"
+		          >
+		          <LinearLayout
+					      android:orientation="vertical" 
+					      android:layout_width="wrap_content" 
+					      android:layout_height="wrap_content" 
+					      android:layout_gravity="center_vertical"
+					      >
+					      <TextView
+					          android:id="@+id/title"
+					          android:layout_width="fill_parent" 
+					          android:layout_height="wrap_content" 
+					          android:text="Title" 
+					          android:textSize="@dimen/abs__item_text_title_size"
+					          android:gravity="bottom"
+					    	  android:textColor="@color/abs__font_color1"
+					         />
+					      <TextView
+					          android:id="@+id/summary" 
+					          android:layout_width="fill_parent" 
+					          android:layout_height="wrap_content" 
+					          android:text="summary" 
+					          android:textSize="@dimen/abs__item_text_summary_size"
+					          android:gravity="top"
+					    	  android:textColor="@color/abs__font_color11"
+					          />
+					</LinearLayout>
+			     
+			      <ImageView 
+			         android:id="@+id/right_icon" 
+			         android:layout_width="wrap_content" 
+			         android:layout_height="wrap_content"
+			         android:background="@drawable/abs__roma_icon_arrow_right"
+			         android:layout_alignParentRight="true"
+			         android:layout_centerVertical="true"
+			         android:layout_gravity="right|center"
+			         android:layout_marginRight="25dip"
+			        />
+			 </FrameLayout>
+		 </LinearLayout>
+</LinearLayout>
+<View 
+    android:id="@+id/space"
+    android:layout_width="fill_parent" 
+     android:layout_height="7dp"
+     android:background="@null"
+     android:visibility="gone"
+     android:focusable="false"
+     android:clickable="false"
+    />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abs__action_bar_default_height"
+    android:id="@+id/rl_titleParent" >
+    <LinearLayout
+        android:id="@+id/ll_rightParent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dip"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tv_leftBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <com.trevorpage.tpsvg.SVGView
+            android:id="@+id/sb_leftBtn"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            />
+        <com.trevorpage.tpsvg.SVGView
+          android:id="@+id/sb_edittextsize"
+          android:visibility="gone"
+          android:layout_marginLeft="15dp"
+          android:layout_width="25dp"
+          android:layout_height="25dp"
+          android:layout_gravity="center"
+          />
+    </LinearLayout>
+   <!-- <TextView
+        android:id="@+id/tv_leftBtn"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        />-->
+<!--    <com.trevorpage.tpsvg.SVGView
+        android:id="@+id/sb_edittextsize"
+        android:paddingRight="10dip"
+        android:layout_alignRight="@id/tv_leftBtn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        />-->
+<!--    <TextView
+        android:textColor="#ff33"
+        android:text="111"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/SwitchTowView"
+        android:layout_toLeftOf="@+id/SwitchTowView"
+        android:layout_marginRight="41dp"/>-->
+
+    <com.romaway.framework.view.RomaWaySwitchTowView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:id="@+id/SwitchTowView"
+    />
+    
+    <LinearLayout
+        android:id="@+id/ll_rightParent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dip"
+	    android:layout_alignParentRight="true"
+	    android:orientation="horizontal" >
+	    
+	    <com.trevorpage.tpsvg.SVGView
+        android:id="@+id/sb_search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center">
+
+        <com.trevorpage.tpsvg.SVGView
+            android:id="@+id/sb_refresh"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <ImageButton
+            android:id="@+id/sb_progressBar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+	</LinearLayout>
+</RelativeLayout>

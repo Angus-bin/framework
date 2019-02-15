@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="abs__bottom_action_bar_default_height">39dip</dimen>
+   
+         <dimen name="bottom_bar_you_wen">48.41dip</dimen>
+    			<dimen name="you_wen_line">49.95dip</dimen>
+    		<dimen name="bottom_bar_line">39.96dip</dimen>
+   <dimen name="abs__switch_tow_title_width">180dip</dimen>
+   <dimen name="abs__item_text_title_size">14dip</dimen>
+</resources>

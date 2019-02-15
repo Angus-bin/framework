@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 现管计划 -->
+    <string name="KDS_TICKET_NO_XGJH_PortalUrl">
+        https://e.csc108.com/portal/main?externalLogin=false
+    </string>
+    <string name="KDS_TICKET_NO_XGJH_TargetUrl">
+        https://e.csc108.com/cmall/main
+    </string>
+
+    <!-- 投顾产品(投顾锦囊) -->
+    <string name="KDS_TICKET_NO_TGCP_PortalUrl">
+        https://e.csc108.com/portal/main?externalLogin=false
+    </string>
+    <string name="KDS_TICKET_NO_TGCP_TargetUrl">
+        https://e.csc108.com/tmall/main
+    </string>
+
+    <!-- 公募基金 -->
+    <string name="KDS_TICKET_NO_GMJJ_PortalUrl">
+        https://e.csc108.com/portal/main?externalLogin=false
+    </string>
+    <string name="KDS_TICKET_NO_GMJJ_TargetUrl">
+        https://e.csc108.com/fmall/main
+    </string>
+
+    <!-- 我的Level 2免费详情 -->
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_FREE_PortalUrl">
+        https://e.csc108.com/portal/main?externalLogin=false
+    </string>
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_FREE_TargetUrl">
+        https://e.csc108.com/lv2/main#level2-product-index-free
+    </string>
+
+    <!-- 我的Level 2购买页面 -->
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_BUY_PortalUrl">
+        https://e.csc108.com/portal/main?externalLogin=false
+    </string>
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_BUY_TargetUrl">
+        https://e.csc108.com/lv2/main#level2-product-index
+    </string>
+
+    <!-- 我的Level 2 -->
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_PDMY_PortalUrl">
+        https://e.csc108.com/portal/main?externalLogin=false
+    </string>
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_PDMY_TargetUrl">
+        https://e.csc108.com/lv2/main#level2-product-my
+    </string>
+
+    <!-- 我的Level 2订单记录 -->
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_PDLIST_PortalUrl">
+        https://e.csc108.com/portal/main?externalLogin=false
+    </string>
+    <string name="KDS_PHONE_TICKET_NO_LEVEL2_PDLIST_TargetUrl">
+        https://e.csc108.com/lv2/main#level2-product-list
+    </string>
+
+    <!-- 消息中心跳转地址 -->
+    <string name="KDS_Message_Center_Url">
+        https://upush.csc108.com/infocenter/index.html
+    </string>
+
+    <!-- appid=mockJavaClient&apikey=test_client&apisecret=Jwch7QKEmdbIvGkxViPB -->
+    <!-- 消息中心参数: APP的编号 -->
+    <string name="KDS_Message_Center_appId">
+        zxjt_android
+    </string>
+
+    <!-- APP获得的由服务平台颁发的key(由电商服务平台分发) -->
+    <string name="KDS_Message_Center_apikey">
+        upush_client
+    </string>
+
+    <!-- APP获得的由服务平台颁发的secret(由电商服务平台分发) -->
+    <string name="KDS_Message_Center_apisecret">
+        Fo2bms1rkb8Ga6qAGfk3
+    </string>
+
+    <string name="Upush_Server_Config">[]</string>
+    <!-- UPush 服务器地址 -->
+    <string name="Upush_WebServer_Url">upush.csc108.com</string>
+    <!-- UPush 服务器端口 -->
+    <string name="Upush_WebServer_Port">8883</string>
+    <!-- UPush 登录用户名 -->
+    <string name="Upush_WebServer_Login_AppKey">zxjtupush</string>
+    <!-- UPush 登录密码 -->
+    <string name="Upush_WebServer_Login_AppSecret">jiantouwansui</string>
+</resources>

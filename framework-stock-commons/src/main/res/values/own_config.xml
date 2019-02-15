@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 右上角ActionBar添加配置参数说明: 
+    		-1: 不重置设置布局, 即相当于该方法不执行;
+    		 0: 添加空布局, 无子View存在;
+    		 1: 添加仅键盘精灵的控件布局;
+		更多详见ActionBarEventMgr及其子类的getMenuMap()方法配置定义;
+     -->
+    <!-- 默认配置 -->
+    <item format="integer" type="integer" name="roma_common_right_action_bar">-1</item>
+    <!-- 首页Page资讯中心 -->
+    <item format="integer" type="integer" name="roma_zx_sherlock_right_bar">0</item>
+    <!-- 个股详情 -->
+    <item format="integer" type="integer" name="roma_hq_stockinfo_right_bar">-1</item>
+    
+    
+</resources>

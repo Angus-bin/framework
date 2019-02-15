@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="168px"
+        android:text="发现新版本"
+        android:textColor="#ff000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/title_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18px"
+        android:layout_marginBottom="30px"
+        android:text="更新哪些新功能"
+        android:textColor="#ff3d00"
+        android:textSize="18dp" />
+</com.zhy.autolayout.AutoLinearLayout>

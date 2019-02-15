@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 统一认证版本控制  1：没有软件类型的；2：带软件类型的 -->
+    <integer name="system_server_version">2</integer>
+    
+    
+    <string name="config_version">${app.config.version}</string>
+    <string name="about_txt_version">3.2.6.20140827.66078</string>
+    <string name="config_apptype"><!-- ${config_apptype} -->66078</string>
+    <string name="roma_app_version"></string>
+
+	<!-- 个股指数版本号-->
+	<item name="hangqing_fs_version" format="integer" type="dimen">1</item>
+	<!-- 自选股同步版本号 -->
+	<item name="hangqing_zxgtb_version" format="integer" type="dimen">1</item>
+	<!-- 港股版本号-->
+	<item name="hangqing_hkfs_version" format="integer" type="dimen">1</item>
+	<!-- 自选版本号-->
+	<item name="zixuan_version" format="integer" type="dimen">1</item>
+	<!-- 键盘精灵版本号 -->
+	<item name="keyboardelf_version" format="integer" type="integer">1</item>
+
+	<!-- 大盘指数界面展示版本 -->
+	<item name="dapanzhishu_ui_version" format="integer" type="integer">1</item>
+	
+	<!-- 大盘指数国内指数版本 -->
+	<item name="dapanzhishu_inland_version" format="integer" type="integer">1</item>
+	
+	<!-- 市场行情列表版本 -->
+	<item name="market_quotation_version" format="integer" type="integer">1</item>
+	
+	<!-- 板块行情列表版本 -->
+	<item name="plate_quotation_version" format="integer" type="integer">1</item>
+	
+	<!-- 港股行情版本 -->
+	<item name="hk_stock_quotation_version" format="integer" type="integer">1</item>
+	
+	<!-- 沪港通行情版本 -->
+	<item name="hgt_stock_quotation_version" format="integer" type="integer">1</item>
+	
+	<!-- 全球股指行情版本 -->
+	<item name="global_stock_index_version" format="integer" type="integer">1</item>
+	
+	<!-- 全球股指分类行情版本 -->
+	<item name="global_stock_index_fenlei_version" format="integer" type="integer">2</item>
+	
+	<!-- 三板行情列表版本 -->
+	<item name="sanban_market_version" format="integer" type="integer">1</item>
+	
+	<!-- 外汇行情版本 -->
+	<item name="waihui_market_version" format="integer" type="integer">1</item>
+	
+	<!-- 期货行情版本 -->
+	<item name="futures_market_version" format="integer" type="integer">1</item>
+	
+	<!-- 期权分时行情版本 -->
+	<item name="option_fenshi_market_version" format="integer" type="integer">2</item>
+	
+	<!-- 期权K线行情版本 -->
+	<item name="option_KLine_market_version" format="integer" type="integer">3</item>
+	
+	<!-- 复权K线行情版本 -->
+	<item name="option_fuquan_market_version" format="integer" type="integer">4</item>
+	
+	<!-- 个股指数K线版本号-->
+	<item name="hangqing_KLine_version" format="integer" type="dimen">2</item>
+
+	<!-- 资讯时间解析模式类型 -->
+	<item name="config_zixun_time_format_type" format="integer" type="integer">0</item>
+	<!-- 资讯详情 时间解析模式类型 -->
+	<item name="config_zixun_detail_time_format_type" format="integer" type="integer">0</item>
+	<!-- 用户反馈 时间解析模式类型 -->
+	<item name="config_user_feedBack_time_format_type" format="integer" type="integer">0</item>
+
+</resources>

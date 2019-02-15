@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 分时公共颜色  红、黄、绿 -->
+    <!-- <color name="clr_fs_red">#EB2227</color> -->
+    <color name="clr_fs_red">#FFFF3434</color>
+    <color name="clr_fs_yellow">#FCEE21</color>
+    <color name="clr_fs_green">#FF009900</color>
+    <color name="clr_fs_blue">#59C6D0</color>
+    <!-- 分时背景颜色 -->
+    <color name="clr_fs_bgn">#231F1F</color>
+    <!-- 十字线颜色 -->
+    <!-- 
+    <color name="clr_fs_crossline">#F6921D</color>
+     -->
+    <color name="clr_fs_crossline">#FFFFFFFF</color>
+
+    <!-- 线条颜色 -->
+    <color name="clr_fs_line">#333332</color>
+    <!-- 线条宽度 -->
+    <dimen name="theme_fs_line_width">2dip</dimen>
+
+    <!-- 分时区高度，包括成交量区 -->
+    <dimen name="theme_fs_height">294dip</dimen>
+
+    <dimen name="theme_fs_regional_gap">8dp</dimen>
+    <dimen name="theme_fs_bs5_text_padding">4dp</dimen>
+
+    <!-- 分时区底部时间高度 -->
+    <dimen name="theme_fs_time_height">15dip</dimen>
+
+    <!-- 浮动框 宽、高、字体大小 -->
+    <dimen name="theme_fs_floatRect_textsize">15dip</dimen>
+    <dimen name="theme_fs_floatRect_height">112dip</dimen>
+    <dimen name="theme_fs_floatRect_width">81dip</dimen>
+    <!-- 浮动框 背景色 -->
+    <color name="clr_fs_floatRect_bgn">#334c4c4d</color>
+
+    <!-- 买卖五档 标题宽、高、字体大小 -->
+    <dimen name="theme_fs_bs5_title_width">226px</dimen>
+    <dimen name="theme_fs_bs5_title_height">34dip</dimen>
+    <dimen name="theme_fs_bs5_title_textsize">15dip</dimen>
+
+    <!-- 买卖五档 主体宽、高、字体大小 -->
+    <dimen name="theme_fs_bs5_body_width">128dip</dimen>
+    <dimen name="theme_fs_bs5_body_height">260dip</dimen>
+    <dimen name="theme_fs_bs5_body_textsize">13dip</dimen>
+    <dimen name="theme_fs_bs5_sjl_textsize">12dip</dimen>
+
+    <!-- 盘口区顶部按钮  宽、高 -->
+    <dimen name="theme_fs_bs5_btn_width">35dip</dimen>
+    <dimen name="theme_fs_bs5_btn_height">24dip</dimen>
+
+    <!-- 明细区高 -->
+    <dimen name="theme_fs_mx_title_height">20dip</dimen>
+    <!-- 明细区字体大小 -->
+    <dimen name="theme_fs_mx_textsize">15dip</dimen>
+
+    <!-- 横屏参数 -->
+    <!-- 横屏顶部高度 -->
+    <dimen name="theme_fs_landscape_title_height">32dip</dimen>
+    <dimen name="theme_fs_landscape_title_stocksize">18dip</dimen>
+    <dimen name="theme_fs_landscape_title_btn_height">27dip</dimen>
+    <dimen name="theme_fs_landscape_title_btn_width">70dip</dimen>
+    <dimen name="theme_fs_landscape_bs5_width">128dip</dimen>
+
+    <!-- 标题栏 -->
+    <dimen name="theme_fs_title_height">42dip</dimen>
+    <dimen name="theme_fs_title_leftrect_width">85dip</dimen>
+    <!-- 110 -->
+    <dimen name="theme_fs_title_addstock_btn_width">55dip</dimen>
+    <dimen name="theme_fs_title_zjcj_textsize">18dip</dimen>
+    <dimen name="theme_fs_title_zdf_textsize">12dip</dimen>
+    <dimen name="theme_fs_title_right_textsize">15dip</dimen>
+    <dimen name="theme_fs_title_right_hkzs_textsize">11dip</dimen>
+
+    <color name="clr_fs_title_leftrect_ping">#929496</color>
+    <color name="clr_fs_title_leftrect_bgn">#333332</color>
+
+    <!-- *****地雷***************************** -->
+    <dimen name="theme_fs_mine_left">20dip</dimen>
+    <dimen name="theme_fs_mine_top">20dip</dimen>
+
+</resources>

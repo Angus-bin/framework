@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 行情列表标题右移动箭头 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/hq_slv_header_right_move_arrow_img"
+            android:layout_width="@dimen/hq_navigation_arrows_width"
+            android:layout_height="@dimen/hq_navigation_arrows_height"
+            android:layout_weight="0"
+            android:background="@drawable/hq_header_navigation_arrows_right" />
+    </LinearLayout>
+
+</LinearLayout>

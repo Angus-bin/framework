@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content"
+     android:background="@drawable/abs__bg_preference_title" 
+     >
+
+     <TextView
+          android:id="@+id/title"
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content" 
+          android:text="设置" 
+          android:textSize="@dimen/abs__item_text_title_size"
+    	  android:textColor="@color/abs__font_color0"
+    	  android:layout_marginLeft="17dp"
+    	  android:layout_marginBottom="5dp"
+    	  android:layout_marginTop="20dp"
+         />
+
+</LinearLayout>

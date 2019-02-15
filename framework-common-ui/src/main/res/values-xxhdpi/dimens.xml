@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="roma_lib_backbtn_width">52px</dimen>
+    <dimen name="roma_lib_backbtn_height">48px</dimen>
+</resources>

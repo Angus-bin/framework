@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="mode_jy_homepage_loginstatus">ptjy/home/ptjy_index.html</string>
+	<string name="mode_jy_homepage">ptjy/home/ptjy_header.html</string>
+	<string name="mode_jy_ptjy_login">ptjy/login/ptjy_login.html</string>
+
+	<string name="mode_rzrq_homepage_loginstatus">rzrq/home/rzrq_index.html</string>
+	<string name="mode_rzrq_homepage">rzrq/home/rzrq_header.html</string>
+	<string name="mode_rzrq_ptjy_login">rzrq/home/rzrq_login.html</string>
+
+	<string name="mode_rzrq_dbpmr">rzrq/wtxd/rzrq_ptmr.html</string>
+	<string name="mode_rzrq_rzmr">rzrq/wtxd/rzrq_rzmr.html</string>
+	<string name="mode_rzrq_mqhq">rzrq/wtxd/rzrq_huanquan.html</string>
+	<string name="mode_rzrq_dbpmc">rzrq/wtxd/rzrq_ptmc.html</string>
+	<string name="mode_rzrq_rzmc">rzrq/wtxd/rzrq_rqmc.html</string>
+	<string name="mode_rzrq_mqhk">rzrq/wtxd/rzrq_huankuan.html</string>
+
+	
+</resources>

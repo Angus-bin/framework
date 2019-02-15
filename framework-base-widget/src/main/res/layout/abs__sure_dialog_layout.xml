@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/root"
+    >
+	   <TextView
+	    android:id="@+id/tv_sure_message_view"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:gravity="left"
+	 	android:textSize="@dimen/abs__font_size1"
+	 	android:textColor="#ff4d4d4d"
+	 	android:layout_marginTop="18dp"
+	 	android:layout_marginLeft="25dp"
+	 	android:layout_marginRight="25dp"
+		android:paddingBottom="10dp"
+	 />
+   <LinearLayout 
+       android:id="@+id/bottom_rootroot"
+       android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="horizontal"
+	   android:layout_below="@id/tv_sure_message_view"
+	   android:layout_centerHorizontal="true"
+	   android:layout_marginLeft="15dp"
+	   android:layout_marginRight="15dp"
+	   android:layout_marginTop="18dp"
+	   android:background="@android:color/transparent"
+       >
+        <Button 
+            android:id="@+id/CancleButton"
+            android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:layout_marginBottom="15dp"
+	   		android:layout_weight="1.0"
+	   		android:text="取消"
+	   		style="@style/ROMAButtonStyleShapGains"
+            />
+         <View 
+           android:id="@+id/v_view_space"
+	       android:layout_width="25dp"
+	   	   android:layout_height="match_parent"
+	   	   />
+        <Button 
+            android:id="@+id/SureButton"
+            android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1.0"
+	   		android:layout_marginBottom="15dp"
+	   		android:text="确定"
+	   		style="@style/ROMAButtonStyleShapRed"
+            />
+   </LinearLayout>
+	
+</RelativeLayout>
+

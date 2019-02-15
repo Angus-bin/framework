@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    	<RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+        	>
+        
+			<Button
+	        	android:id="@+id/abs__keyboard_hide"
+		       	android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/abs__keyboard_hide_bt"
+				android:layout_alignParentRight="true"
+				android:layout_marginRight="10dp"
+		        />
+		</RelativeLayout>
+    	<roma.romaway.abs.android.keyboard.RomaWayKeyBoardInputView
+			android:id="@+id/abs__keyboard_input_view"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:background="#ffffffff"   
+			android:keyTextColor="#ff000000"
+			android:keyPreviewHeight="0dp"
+		 />
+</LinearLayout>

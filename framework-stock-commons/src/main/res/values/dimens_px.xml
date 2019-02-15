@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 资讯条目控件 -->
+    <dimen name="zixun_title_textsize">34px</dimen>
+    <dimen name="zixun_time_textsize">28px</dimen>
+       <dimen name="zixun_title_textsize2">14px</dimen>
+    <!-- 间距/宽高 -->
+    <dimen name="home_zixun_marginTop_height">20px</dimen>
+    <dimen name="zixun_marginTop_height">10px</dimen>
+    <dimen name="common_margin_width">20px</dimen>
+    <dimen name="common_margin_width_big">20dp</dimen>
+    <!--首页otc-->
+    <dimen name="buy_time_margin_left">20dp</dimen>
+    <dimen name="view_title_distance">10dp</dimen>
+    <dimen name="buy_time_margin_top">5dp</dimen>
+
+    <!-- 自选编辑界面宽高与字体 -->
+    <dimen name="roma_user_stock_delete_view_width">110px</dimen>
+    <dimen name="roma_userstock_textsize">32px</dimen>
+    <dimen name="roma_userstock_codesize">26px</dimen>
+    <dimen name="roma_userstock_typesize">10dp</dimen>
+    <dimen name="roma_userstock_svgsize">50px</dimen>
+    <dimen name="roma_userstock_btnsize">15sp</dimen>
+
+    <!-- 行情列表字体、宽度 -->
+    <dimen name="hq_userstock_listitem_zdf_textsize">28px</dimen>
+    <dimen name="roma_userstock_list_titlesize">28px</dimen>
+    <dimen name="roma_userstock_list_fixview_width">186px</dimen>
+    <integer name="roma_userstock_list_moveview_width">188</integer>
+
+    <!-- 首页, 投顾界面引导图 -->
+    <dimen name="roma_homepage_guide_width">260px</dimen>
+    <dimen name="roma_homepage_guide_marginTop">580px</dimen>
+    <dimen name="roma_homepage_guide1_marginLeft">36px</dimen>
+    <dimen name="roma_homepage_guide2_marginLeft">390px</dimen>
+
+    <dimen name="roma_homepage_guide4_marginTop">279px</dimen>
+    <dimen name="roma_homepage_guide4_marginLeft">46px</dimen>
+    <dimen name="roma_homepage_guide4_width">250px</dimen>
+
+    <dimen name="yt_dialog_layout_width">540px</dimen>
+    <dimen name="yt_dialog_layout_width_new">600px</dimen>
+    <dimen name="yt_dialog_layout_marginLeft">80px</dimen>
+    <dimen name="yt_dialog_layout_marginRight">81px</dimen>
+    <!-- icon比例: 540:250, 250 = 146+104 -->
+    <dimen name="yt_dialog_layout_icon_top">46px</dimen>
+    <dimen name="yt_dialog_layout_title_top">104px</dimen>
+    <dimen name="yt_dialog_layout_icon_top2">146px</dimen>
+</resources>

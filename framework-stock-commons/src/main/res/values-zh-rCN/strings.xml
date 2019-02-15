@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPhone-Original版</string>
+
+    <!-- hint -->
+    <string name="home_search_hint">搜索、添加自选</string>
+    <string name="search_hint">证券代码或拼音首字母</string>
+    <string name="kline_notice">"系统自动默认为3根均线，你可以通过开启/关闭按钮选择是否显示，还可以直接点击修改数字。"</string>
+    <string name="roma_update_cancel">取消</string>
+    <string name="roma_updating_title">下载中，请稍候......</string>
+
+    <!-- 网络状态变化提示: 连接成功(空则不提示) -->
+    <string name="net_conn_success">网络连接成功</string>
+    <string name="net_conn_disconnected">您的当前网络不可用</string>
+
+    <string name="err_net_timeout">网络连接超时，请稍候重试</string>
+    <string name="err_net_conn">网络请求失败，请稍后再试</string>
+    <string name="err_net_unknown">网络无法连接，请检查您的网络</string>
+    <string name="err_net_server">网络连接断开</string>
+    <string name="err_net_parse">网络数据解析错误 </string>
+    <string name="err_net_servererror">  服务器连接失败，请稍候重试</string>
+    <string name="err_net_querydept">查询营业部信息失败，请重试</string>
+
+    <string name="hq_mystock_del_ok">删除自选股成功!</string>
+    <string name="hq_mystock_del_fail">删除自选股失败!</string>
+    <string name="roma_hq_share_without_weixin">您当前未安装微信！</string>
+    <string name="roma_init_without_network">当前网络不通，请先设置网络</string>
+
+    <string name="roma_search_stock">搜索证券</string>
+    <string name="roma_add_stock">添加股票</string>
+    <string name="roma_commons_qq_uninstall_notice">您当前未安装QQ</string>
+
+
+    <!-- 错误提示 -->
+    <string name="blank_smscommand">请输入短信内容</string>
+    <string name="err_gettel">获取手机号码失败</string>
+    <string name="blank_tel">手机号码不能为空</string>
+    <string name="invalid_tel">手机号码格式不正确</string>
+    <string name="invalid_pwd">验证码不能为空</string>
+    <string name="wrong_verify_code">验证码输入错误</string>
+    <string name="fail_handwork_reg">对不起，您还没有注册！请先发送短信。</string>
+    <string name="fail_hand">对不起，您输入的信息错误，请确认后再输入。</string>
+    <string name="roma_login_fail">手机号或验证码错误</string>
+    <string name="roma_login_msg1">手机验证通过后即可享受自选股云同步等服务</string>
+    <string name="roma_login_msg2">手机验证通过后即可享受自选股云同步等服务</string>
+    <string name="roma_login_notice">注：点击“获取验证码”后若长时间未收到验证码短信，请致电客服热线：</string>
+    <string name="roma_login_agree">我已阅读并同意</string>
+    <string name="roma_login_policy">相关服务条款与隐私政策 ▼</string>
+    <string name="roma_login_get_verify_code">验证码会通过短信下发到手机，请注意查收。</string>
+
+    <string name="roma_init_get_code">获取验证码</string>
+    <string name="roma_init_input_code">请输入验证码</string>
+    <string name="roma_init_input_phone">请输入您的手机号码</string>
+    <string name="roma_init_phone_check_title">手机验证</string>
+    <string name="roma_init_phone_check_btn">登录</string>
+    <string name="roma_actionbar_close">关闭</string>
+
+    <string name="roma_exit_dialog_cancel">取消</string>
+    <string name="roma_exit_dialog_sure">确定</string>
+    <string name="roma_exit_dialog_title">退出</string>
+    <string name="roma_exit_dialog_content">您确定要退出@appName吗？</string>
+    <string name="roma_err_net_dialog_left_text">设置</string>
+    <string name="roma_err_net_dialog_right_text">退出</string>
+
+    <string name="roma_tips_title">温馨提示</string>
+    <string name="roma_myfoot_tips_title">提示</string>
+    <string name="roma_tips_message">是否要下载开户APP？</string>
+    <string name="roma_download_btn_text">立即下载</string>
+    <string name="roma_wo_systemsetting_new_version_update">新版本上线</string>
+
+    <string name="otc_time_limit">期限</string>
+    <string name="otc_earnings_one_year">预计年化收益率</string>
+    <string name="otc_sum_money">金额</string>
+    <!-- 投顾Tab项 -->
+    <string-array name="Tougu_Tab_Items">
+        <item>最赚钱组合</item>
+        <item>人气组合</item>
+        <!--<item>跑赢大盘</item>-->
+    </string-array>
+
+    <string-array name="Tougu_Tab_Items_key">
+        <item>0</item>
+        <item>1</item>
+        <!--<item>2</item>-->
+    </string-array>
+
+    <!-- 投顾Tab项 -->
+    <string-array name="Tougu_Tab_Items2">
+        <item>自建组合</item>
+        <item>关注组合</item>
+    </string-array>
+
+    <string-array name="Tougu_Tab_Items2_key">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="Tougu_Tab_Title">
+        <item>组合</item>
+        <item>我的</item>
+    </string-array>
+
+    <string name="tougu_modify_group_info">编辑组合</string>
+    <string name="tougu_modify_group_req_info">修改组合信息失败</string>
+    <string name="tougu_group_name">组合名称</string>
+    <string name="tougu_group_name_note">名字不要超过八个字</string>
+    <string name="tougu_main_person_options_title">主理人意见</string>
+    <string name="tougu_main_person_options_title_length">0/20个字</string>
+    <string name="tougu_main_person_options_title_note">个字</string>
+    <string name="tougu_main_person_options">说说你的理念，让别人更好的了解你的组合</string>
+    <string name="tougu_hide_group">隐藏组合</string>
+    <string name="tougu_adjust_store_history">调仓记录</string>
+    <string name="tougu_refrence_price">参考成本价</string>
+    <string name="roma_actionbar_sure">确定</string>
+    <string name="yt_tougu_no_zuhe">暂无组合</string>
+    <string name="tougu_modify_group_name_isnull">组合名称信息没有填写</string>
+
+    <string name="tougu_guanzhu_note">关注提示</string>
+    <string name="tougu_guanzhu_context">您确定不再关注组合name了吗？</string>
+    <string name="tougu_dialog_cancel">取消</string>
+    <string name="tougu_dialog_sure">确定</string>
+    <string name="roma_hotline_dialog_title">客服热线: </string>
+    <string name="roma_hotline_dialog_context">您确定要拨打电话？</string>
+    <string name="roma_hotline_dialog_tocall">拨打</string>
+    <string name="roma_out_app_dialog_title">退出确认</string>
+    <string name="roma_user_feed_back_dialog_title">完成</string>
+    <string name="roma_user_feed_back_dialog_fail_title">吐槽失败</string>
+    <string name="roma_clean_cashe_dialog_title">清除缓存</string>
+    <string name="roma_sign_out_note_dialog_title">退出提示</string>
+    <string name="tougu_tiaocang_dialog_button">再调一调</string>
+    <string name="tougu_tiaocang_dialog_clean_note">删除提示</string>
+    <string name="tougu_tiaocang_dialog_clean_sure">删除确认</string>
+    <string name="tougu_tiaocang_dialog_clean_stock">您确定要从组合中删除该股票吗?</string>
+    <string name="tougu_tiaocang_dialog_stock_stop_context">该股票已停牌，暂时无法添加进该组合，建议你换一只股票试试 </string>
+    <string name="tougu_tiaocang_dialog_stock_stop_clean_context">该股票已停牌，停牌的股票不允许删除操作，建议你在复牌后进行删除</string>
+    <string name="tougu_tiaocang_dialog_stock_downstop_clean_context">该股票已跌停，跌停的股票不允许删除操作。</string>
+    <string name="tougu_tiaocang_dialog_tiaocang_note">调仓提示</string>
+    <string name="tougu_tiaocang_dialog_stock_downstop_sell">该股票已跌停，暂时无法进行仓位卖出</string>
+    <string name="tougu_tiaocang_dialog_stock_upstop_buy">该股票已涨停，暂时无法进行仓位买入</string>
+    <string name="tougu_tiaocang_dialog_allnull_context">请保证您创建的组合至少包含1只股票的仓位大于0%～</string>
+    <string name="tougu_tiaocang_dialog_havenull_context">组合持仓中仓位为0%的股票将被删除，您确定继续创建组合吗？</string>
+    <string name="tougu_tiaocang_dialog_create_button">创建</string>
+    <string name="tougu_tiaocang_dialog_tiaocang_havenull_context">持仓中仓位为0%的股票将被删除，您确定此次调仓操作继续吗？</string>
+    <string name="tougu_tiaocang_dialog_continue_button">继续</string>
+    <string name="roma_one_key_to_new_stock_buy_title">新股申购</string>
+    <string name="roma_one_key_to_new_stock_buy_context">今天有num只新股可申购，快去看看申购新股吧～</string>
+    <string name="roma_one_key_to_new_stock_buy_left_button">知道了</string>
+    <string name="roma_one_key_to_new_stock_buy_right_button">去申购</string>
+
+    <!-- 消息中心Tab项 -->
+    <string-array name="MsgCenter_Tab_Items">
+        <item>系统消息</item>
+        <!--<item>预警消息</item>-->
+        <item>资讯消息</item>
+    </string-array>
+
+    <string-array name="MsgCenter_Tab_Items_key">
+        <item>system_msg</item>
+        <!--<item>warning_msg</item>-->
+        <item>zixun_msg</item>
+    </string-array>
+
+    <string name="yt_msg_detail_title">消息详情</string>
+
+    <string name="yt_msg_no_info">未收到任何消息哟～</string>
+
+    <!-- 低版本控制登录所需字段 -->
+    <string name="roma_wo_systemsetting_version_update">版本更新</string>
+    <string name="roma_wo_systemsetting_do_it_later">以后再说</string>
+    <string name="roma_wo_systemsetting_update_now">马上升级</string>
+    <string name="roma_wo_currentVersionIsTheLatest">你目前的版本已经是最新版本</string>
+    <string name="roma_wo_close">关闭</string>
+
+    <string name="tougu_now_no_buyOrsell">待成交</string>
+
+    <!-- 高手组合风险提示 -->
+    <string name="roma_zuhe_risk_warning_title">高手组合规则说明及风险揭示</string>
+    <string name="roma_zuhe_risk_warning_subTitle">(面向投资者)</string>
+    <string name="roma_zuhe_risk_warning_context">
+        \r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. 证券市场是风险市场，投资者需谨慎抉择投资事项，所有投资工具均不保证盈利。
+
+    \r\n\r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. 本产品仅供参考，不作为投资依据，据此操作收益归己风险自担，股市有风险，投资需谨慎。
+
+    \r\n\r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. 容维财经软件所生成的趋势信号、技术指标、提示符号及文字说明，多基于对市场内各证券品种历史数据的长期跟踪与系统分析，通过证券品种共同特性得出的大概率结果。运用成交量、财务数据、流通股本、技术形态、盘中走势等基础因素，经过行情、时间、逻辑、算术、统计、指标、专业财务、交易、协方差等函数的综合运算，以趋向与反趋向、能量与价格、压力与支撑、超买与超卖、多空势力对比、资金进出、随机指标、强弱指标、趋势指标等指标形式显示在产品当中，从而实现对证券投资品种在投资时间、运行方向等方面提供相关预测。该软件系统不承诺投资者获取投资收益，也不与投资者约定分享投资收益或分担投资损失。
+
+    \r\n\r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. 容维财经软件并不能完全揭示股票、基金、债券及权证等所有证券交易的全部风险及证券市场的全部情形。客户在参与以上各种证券交易前务必对此有清醒的认识, 建议客户应当充分深入地了解证券市场蕴含的各项风险并谨慎行事，认真考虑是否进行证券交易。
+
+    \r\n\r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. 容维财经软件系统可为客户提供投资参考，但其缺陷是不能实现百分之百准确，另外程序有限度，不能把所有元素包含在内，所以客户在使用时还要多加考虑各种可能的不利因素。
+
+    \r\n\r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. 自本协议签订之日起，5个工作日内，客户可以书面、互联网或拨打电话等方式通知黑龙江省容维证券数据程序化有限公司（以下简称容维公司）提出解除协议，容维公司受理完毕后，容维财经软件产品销售协议解除。自客户对本协议进行确认操作并支付费用购买容维财经软件服务起视为客户同意并签署本协议及其补充条款，服务到期即协议自动终止。
+
+    \r\n\r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;7. 容维公司的网络及媒体宣传及产品演示介绍只是作为客户的借鉴和参考，客户同意不把这些内容作为其最终判断选择签定本协议的依据和理由，客户应经过客观判断、审慎选择合作。容维公司与客户双方合作仅限于本协议范围内所约定的内容事项。
+
+    \r\n\r\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;8. 本协议之外不存在任何口头承诺、约定与非印刷文稿及附加的其他条款和服务事项，在容维公司与客户合作前客户需对上述情况予以认定，如果存在与协议条款相违背的本款项提及的任何其他情况，容维公司与客户均认定为非双方真实意思表述，双方一致同意只认定本协议全部合作内容。容维公司与客户确认本协议后双方接受并履行本协议约定的全部内容与权力、义务。
+        \r\n\r\n
+    </string>
+</resources>

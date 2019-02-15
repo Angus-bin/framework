@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.trevorpage.tpsvg.SVGView
+        android:id="@+id/sb_add"
+        android:layout_width="@dimen/actionbar_icon_view_side"
+        android:layout_height="@dimen/actionbar_icon_view_side"
+        android:visibility="gone" />
+
+    <com.trevorpage.tpsvg.SVGView
+        android:id="@+id/sb_search"
+        android:layout_width="@dimen/actionbar_icon_view_side"
+        android:layout_height="@dimen/actionbar_icon_view_side" />
+
+    <com.trevorpage.tpsvg.SVGView
+        android:id="@+id/sb_connection"
+        android:layout_width="@dimen/actionbar_icon_view_side"
+        android:layout_height="@dimen/actionbar_icon_view_side" />
+
+    <RelativeLayout
+        android:id="@+id/rl_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/actionbar_icon_view_spacing"
+        android:layout_marginRight="@dimen/actionbar_icon_view_spacing"
+        android:gravity="center">
+
+        <com.trevorpage.tpsvg.SVGView
+            android:id="@+id/sb_refresh"
+            android:layout_width="@dimen/actionbar_icon_view_side"
+            android:layout_height="@dimen/actionbar_icon_view_side" />
+
+        <ImageButton
+            android:id="@+id/sb_progressBar"
+            android:layout_width="@dimen/actionbar_icon_view_side"
+            android:layout_height="@dimen/actionbar_icon_view_side"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_rightBtn"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:text="下一步"
+        />
+
+    <ImageView
+        android:id="@+id/img_rightBtn"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

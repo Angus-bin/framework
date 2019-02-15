@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+	<LinearLayout 
+	    android:id="@+id/root"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:gravity="center_vertical"
+    	android:orientation="horizontal"
+	    >
+	    
+	</LinearLayout>
+	<com.romaway.framework.view.IndicatorView
+	    android:id="@+id/abs__top_indicator_view"
+	    android:layout_width="match_parent"
+    	android:layout_height="3dp"
+	    >
+	</com.romaway.framework.view.IndicatorView>
+	
+	<View
+	    android:id="@+id/abs__top_bottomline"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/abs__top_divider_color" />
+</LinearLayout>

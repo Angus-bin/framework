@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 顶部的bar的高度 -->
+	<dimen name="search_top_bar_height">45dip</dimen>
+	<!-- 取消按钮的宽度 -->
+	<dimen name="search_btn_cancel_width">54dip</dimen>
+	<!-- 取消按钮的高度 -->
+	<dimen name="search_btn_cancel_height">27.5dip</dimen>
+	<!-- 列表项的高度 -->
+	<dimen name="search_list_item_height">50dip</dimen>
+	<!-- 列表项左边的padding -->
+	<dimen name="search_list_item_padding_left">11dip</dimen>
+	<!-- 列表项右边的padding -->
+	<dimen name="search_list_item_padding_right">12.5dip</dimen>
+	<!-- 列表项的字体大小 -->
+	<dimen name="search_list_item_textsize">17.5dip</dimen>
+	<!-- 列表项的字体颜色 -->
+	<color name="search_list_item_textcolor">#FF333332</color>
+	<!-- 添加按钮的高度 -->
+	<dimen name="search_iv_add_width">46dip</dimen>
+	<!-- 添加按钮的 宽度 -->
+	<dimen name="search_iv_add_height">50dip</dimen>
+	
+	<dimen name="userstock_listitem_normal_height">40dip</dimen>
+	<dimen name="userstock_listitem_expanded_height">80dip</dimen>
+	
+	<dimen name="jy_hide_keybord_btn_height">25dp</dimen>
+	<!-- 资讯列表标题字体大小 -->
+	<dimen name="zx_list_title_textsize">14dp</dimen>
+	<!-- 资讯列表时间字体大小 -->
+	<dimen name="zx_list_time_textsize">12dp</dimen>
+
+	<!-- 融资融券,港股标识背景色圆角弧度 -->
+	<integer name="hq_stockType_mark_bg_corner">2</integer>
+	<!-- 港股通界面 融资融券,港股标识背景色圆角弧度 -->
+	<integer name="hq_ggt_stockType_mark_bg_corner">5</integer>
+	<!-- 自定义对话框 按钮圆角弧度 -->
+	<integer name="roma_dialog_layout_btn_corner">6</integer>
+	<!-- 自定义对话框 背景框圆角弧度 -->
+	<integer name="roma_dialog_layout_bg_corner">10</integer>
+	<!-- 键盘精灵输入框圆角背景图的圆角弧度 -->
+	<integer name="keyboardElf_inputboxBg_corner">10</integer>
+	<!-- 首页投顾ScrollBar滑块的圆角弧度以及高度 -->
+	<item name="homepage_tougu_scrollbar_slider_corner" format="integer" type="integer">3</item>
+	<item name="homepage_tougu_scrollbar_slider_height" format="integer" type="integer">4</item>
+
+	<!-- 界面公共外边距padding距离 -->
+	<dimen name="roma_commons_margin_width">15dp</dimen>
+
+	<!-- 键盘精灵界面股票名称字体 -->
+	<dimen name="roma_hq_search_stock_name_size">16dp</dimen>
+</resources>

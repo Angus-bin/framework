@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.basephone.widget">
+
+    <uses-sdk android:minSdkVersion="11" />
+
+</manifest>

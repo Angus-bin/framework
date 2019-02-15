@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        app:layout_auto_basewidth="height">
+
+        <TextView
+            android:id="@+id/txt_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="好评加油"
+            android:textSize="32px"
+            app:layout_auto_basewidth="height|textSize" />
+
+        <TextView
+            android:id="@+id/txt_item_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/txt_item"
+            android:textSize="28px"
+            app:layout_auto_basewidth="height|textSize" />
+
+        <TextView
+            android:id="@+id/txt_item_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/txt_item"
+            android:textSize="28px"
+            app:layout_auto_basewidth="height|textSize" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <View
+        android:id="@+id/divider_top"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/dialog_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/roma_commons_margin_width"
+        android:layout_marginRight="@dimen/roma_commons_margin_width"
+        android:background="#e6e9f1" />
+</com.zhy.autolayout.AutoLinearLayout>

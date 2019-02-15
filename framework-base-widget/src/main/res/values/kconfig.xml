@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 是否采用AndroidAutoLayout布局框架 -->
+    <item name="kconfigs_isUseAutoLayout" format="boolean" type="bool">true</item>
+    <!-- 是否采用Calligraphy字体框架 -->
+    <item name="kconfigs_isUseCalligraphy" format="boolean" type="bool">false</item>
+
+    <!-- 引用第三方字体的路径 -->
+    <string name="kconfig_calligraphy_fontpath"></string>
+</resources>

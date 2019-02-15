@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/dimens.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- Default height of an action bar. -->
+    <dimen name="abs__action_bar_default_height">43dip</dimen>
+    <dimen name="abs__bottom_action_bar_default_height">39dip</dimen>
+    <dimen name="bottom_bar_you_wen">48dip</dimen>
+    <dimen name="you_wen_line">49.5dip</dimen>
+    <dimen name="bottom_bar_line">39.6dip</dimen>
+    <!-- Vertical padding around action bar icons. -->
+    <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
+    <!-- Text size for action bar titles -->
+    <dimen name="abs__action_bar_title_text_size">18dp</dimen>
+    <!-- Text size for action bar subtitles -->
+    <dimen name="abs__action_bar_subtitle_text_size">14dp</dimen>
+    <!-- Top margin for action bar subtitles -->
+    <dimen name="abs__action_bar_subtitle_top_margin">-3dp</dimen>
+    <!-- Bottom margin for action bar subtitles -->
+    <dimen name="abs__action_bar_subtitle_bottom_margin">5dip</dimen>
+
+    <integer name="abs__max_action_buttons">2</integer>
+
+    <!-- Minimum width for an action button in the menu area of an action bar -->
+    <dimen name="abs__action_button_min_width">35dip</dimen>
+
+
+    <!-- Text padding for dropdown items -->
+    <dimen name="abs__dropdownitem_text_padding_left">8dip</dimen>
+
+    <!-- Text padding for dropdown items -->
+    <dimen name="abs__dropdownitem_text_padding_right">8dip</dimen>
+
+    <!-- Width of the icon in a dropdown list -->
+    <dimen name="abs__dropdownitem_icon_width">32dip</dimen>
+
+
+    <!-- Minimum width of the search view text entry area. -->
+    <dimen name="abs__search_view_text_min_width">160dip</dimen>
+
+    <!-- Preferred width of the search view. -->
+    <dimen name="abs__search_view_preferred_width">320dip</dimen>
+    
+    <!-- add by wanlaihuan  -->
+    <dimen name="abs__indicator_right_padding">10dp</dimen>
+    <dimen name="abs__indicator_corner_radius">12dp</dimen>
+    <dimen name="abs__indicator_internal_padding">4dp</dimen>
+    <!-- 资讯2.0等IndicatorView滑动线粗细 -->
+    <dimen name="abs__indicator_internal_line_height">2dp</dimen>
+    <!-- 资讯2.0等IndicatorView滑动线长短限制 -->
+    <dimen name="abs__indicator_internal_line_padding">5dp</dimen>
+    <dimen name="abs__header_footer_left_right_padding">24dp</dimen>
+    <dimen name="abs__header_footer_top_bottom_padding">12dp</dimen>
+    
+    <dimen name="abs__item_text_title_size">14dip</dimen>
+     <dimen name="abs__item_text_summary_size1">15dip</dimen>
+   <dimen name="abs__item_text_summary_size">12dip</dimen>
+   <dimen name="abs__divider_size">0.5dip</dimen>
+   <dimen name="abs__divider_size_wider">0.5dip</dimen>
+
+    <dimen name="abs__top_bar_view_title_size">7sp</dimen>
+    
+   <!-- 列表选项高度 -->
+    <dimen name="setting_item_minheight">35dip</dimen>
+   <dimen name="list_item_minheight">42dip</dimen>
+   <dimen name="bottom_list_item_minheight">42dip</dimen>
+   <dimen name="list_item_minheight2">58dip</dimen>
+   <dimen name="list_title_minheight">35dp</dimen>
+    
+   <dimen name="abs__switch_tow_title_width">180dip</dimen>
+   
+   <!-- 字体大小 -->
+   <dimen name="abs__font_size00">20dip</dimen>
+    <dimen name="abs__font_size0">18dip</dimen>
+   <dimen name="abs__font_size1">16dip</dimen>
+   <dimen name="abs__font_size11">15dip</dimen>
+   <dimen name="abs__font_size12">14dip</dimen>
+   <dimen name="abs__font_size2">13dip</dimen>
+    <dimen name="abs__font_size3">12dip</dimen>
+    <dimen name="abs__font_size31">11dip</dimen>
+    <dimen name="abs__font_size4">10dip</dimen>
+    <dimen name="roma_commons_key_min_height">60dp</dimen>
+    <dimen name="roma_commons_key_min_height2">51.5dp</dimen>
+    <dimen name="roma_commons_key_verticalgap">10dp</dimen>
+
+    <dimen name="roma_dialog_only_content_font_size">@dimen/abs__font_size1</dimen>
+    <dimen name="roma_dialog_only_content_font_size_new">@dimen/abs__font_size12</dimen>
+
+    <!-- 行情等顶部Actionbar切换View的字体大小 -->
+    <dimen name="roma_commons_switch_tow_frame_textSize">16dp</dimen>
+    <!-- 行情等顶部Actionbar切换View的边框厚度 -->
+    <dimen name="roma_commons_switch_tow_frame_thickness">0.3dp</dimen>
+
+    <dimen name="hq_navigation_arrows_height">13dip</dimen>
+    <dimen name="hq_navigation_arrows_width">13dip</dimen>
+    <dimen name="abs__dialog_height">250dip</dimen>
+    
+    <dimen name="abs__shortcut_svg_size">16dip</dimen>
+    <dimen name="info_center_svg_size">30dip</dimen>
+    <dimen name="abs__top_right_svg_size">16dip</dimen>
+       <dimen name="abs__top_left_svg_size">18dip</dimen>
+    
+    <dimen name="shadow_size">8dip</dimen>
+    <dimen name="table_width">100dp</dimen>
+    <dimen name="table_height">40dp</dimen>
+
+    <!-- Actionbar左上角Icon宽高 -->
+    <dimen name="actionbar_icon_view_side">25dp</dimen>
+    <!-- Actionbar左上角Icon的左外边距 -->
+    <dimen name="actionbar_icon_view_padding_left">8dp</dimen>
+    <!-- Actionbar右上角Icon间间距 -->
+    <dimen name="actionbar_icon_view_spacing">10dp</dimen>
+
+    <!-- BottomBarView Divider Width -->
+    <dimen name="bottomBarView_divider_width">1dp</dimen>
+    <!-- BottomBarView Divider Height -->
+    <dimen name="bottomBarView_divider_height">19dp</dimen>
+
+    <!-- 行情界面 顶部滑动栏线条padding总距离 -->
+    <integer name="roma_indicator_view_line_padding">0</integer>
+    <!-- 行情界面 顶部滑动栏线条padding总距离 -->
+    <integer name="roma_indicator_tougu_view_line_padding">105</integer>
+    <!-- 个股详情界面 ActionBar股票类型标识 背景圆角弧度 -->
+    <integer name="abs__action_bar_subTitle_stockType_mark_bg_corner">2</integer>
+
+</resources>

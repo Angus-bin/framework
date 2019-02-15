@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_tab_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="@dimen/roma_commons_switch_tow_frame_thickness"
+    android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/left_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:singleLine="true"
+            android:text="左边"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/roma_commons_switch_tow_frame_textSize" />
+
+        <TextView
+            android:id="@+id/right_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:singleLine="true"
+            android:text="右边"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/roma_commons_switch_tow_frame_textSize" />
+</LinearLayout>

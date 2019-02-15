@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="title_bar_style">
+        <item name="android:background">@android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+     <style name="text_on_button">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="common_button" parent="@style/text_on_button">
+        <item name="android:background">@drawable/btn_common</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">50.0dip</item>
+        <item name="android:minHeight">30.0dip</item>
+    </style>
+    <style name="title_bar_button" parent="@style/common_button">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/btn_common_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="title_view" parent="@style/title_bar_button">
+        <item name="android:gravity">right|center</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:minHeight">44.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">0.0dip</item>
+    </style>
+    <style name="back_view" parent="@style/title_view">
+        <item name="android:drawableLeft">@drawable/btn_back</item>
+    </style>
+    
+    <style name="detail_title_bar_style" parent="@style/title_bar_style">
+        <item name="android:background">@drawable/detail_bg_titlebar</item>
+    </style>
+
+    <style name="detail_back_view" parent="@style/back_view">
+        <item name="android:background">#00000000</item>
+        <item name="android:drawableLeft">@drawable/btn_back_detail</item>
+    </style>
+    <style name="title_text_style">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+    </style>
+    <style name="libs_base_title_text_style" parent="@style/title_text_style">
+        <item name="android:textColor">@color/detail_title_text_color</item>
+    </style>
+    
+     <style name="IMTheme.Basic" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="IMTheme.Transparent" parent="@style/IMTheme.Basic">
+        <item name="android:windowBackground">@android:color/transparent</item>
+	　　<item name="android:windowIsTranslucent">true</item>
+    </style>
+    
+    <style name="shareDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/mystyle</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 背景有灰度 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="mystyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/slide_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+    
+    <style name="TopWindow" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/basepopup_fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/basepopup_fade_out</item>
+        
+    </style>
+</resources>

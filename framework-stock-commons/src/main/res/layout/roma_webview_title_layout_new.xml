@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:kds="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abs__action_bar_default_height" >
+
+		<com.zhy.autolayout.AutoLinearLayout
+			android:id="@+id/ll_img_left"
+			android:layout_width="150px"
+			android:layout_height="match_parent"
+			kds:layout_auto_basewidth="height">
+
+			<ImageView
+				android:id="@+id/img_left"
+				android:layout_width="40px"
+				android:layout_height="40px"
+				android:layout_gravity="center_vertical"
+				android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true"
+				android:layout_marginLeft="20px"
+				kds:layout_auto_basewidth="height|marginLeft"
+				android:visibility="gone"/>
+
+		</com.zhy.autolayout.AutoLinearLayout>
+
+        <!--<com.trevorpage.tpsvg.SVGView-->
+            <!--android:id="@+id/svg_back"-->
+            <!--android:layout_width="@dimen/actionbar_icon_view_side"-->
+            <!--android:layout_height="@dimen/actionbar_icon_view_side"-->
+            <!--android:layout_gravity="center"-->
+			<!--android:padding="5dp"-->
+            <!--android:layout_marginLeft="@dimen/actionbar_icon_view_padding_left"-->
+            <!--android:layout_marginRight="8dip"-->
+			<!--android:layout_centerVertical="true"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitCenter" />-->
+
+        <TextView
+            android:id="@+id/txt_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/svg_back"
+            android:text="@string/roma_actionbar_close"
+            android:textColor="@color/abs__background_white"
+            android:visibility="gone"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/abs__background_white"
+            android:textSize="@dimen/abs__action_bar_title_text_size" />
+
+        <com.trevorpage.tpsvg.SVGView
+            android:id="@+id/svg_guanzhu_icon"
+            android:layout_width="42px"
+            android:layout_height="42px"
+            android:layout_marginRight="@dimen/actionbar_icon_view_spacing"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+		<ImageView
+			android:id="@+id/svg_right_icon2"
+			android:layout_width="@dimen/actionbar_icon_view_side"
+			android:layout_height="@dimen/actionbar_icon_view_side"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="5dp"
+			android:padding="5dp"
+			android:visibility="gone"
+			android:src="@drawable/roma_web_user_center_icon" />
+
+		<com.zhy.autolayout.AutoRelativeLayout
+			android:id="@+id/rl_img_right2"
+			android:layout_width="70px"
+			android:layout_height="match_parent"
+			android:layout_toLeftOf="@+id/rl_img_right"
+			android:visibility="gone"
+			kds:layout_auto_basewidth="height">
+
+			<ImageView
+				android:id="@+id/svg_right_icon1"
+				android:layout_width="@dimen/actionbar_icon_view_side"
+				android:layout_height="@dimen/actionbar_icon_view_side"
+				android:layout_centerVertical="true"
+				android:layout_marginRight="5dp"
+				android:padding="5dp"
+				android:src="@drawable/roma_web_search_icon"
+				android:visibility="gone" />
+		</com.zhy.autolayout.AutoRelativeLayout>
+
+		<TextView
+			android:id="@+id/txt_right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:text="订单记录"
+			android:textColor="@color/abs__background_white"
+			android:visibility="gone"
+			android:textSize="15dp" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/rl_img_right"
+            android:layout_width="70px"
+            android:layout_height="match_parent"
+			kds:layout_auto_basewidth="height"
+			android:visibility="gone"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/img_right_icon"
+                android:layout_width="36px"
+                android:layout_height="36px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30px"
+                android:visibility="gone"
+				kds:layout_auto_basewidth="height|marginRight"
+                android:src="@drawable/roma_web_user_center_icon" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+	</com.zhy.autolayout.AutoRelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1.0"
+	    android:id="@+id/root" >
+	   <!--<WebView
+	       android:id="@+id/wv_romaWebView"
+	        android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	       />-->
+
+		<roma.romaway.commons.android.webkit.RomaPullToRefreshWebView2
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:roma="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/roma_pull_refresh_webview"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			roma:ptrAnimationStyle="flip"
+			roma:ptrHeaderTextColor="#ff2f2f2f"
+			roma:ptrMode="pullFromStart" />
+
+		<roma.romaway.commons.android.webkit.RomaPullToRefreshWebView
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:roma="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/roma_pull_refresh_webview2"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			roma:ptrAnimationStyle="flip"
+			roma:ptrHeaderTextColor="#ff2f2f2f"
+			android:visibility="gone"
+			roma:ptrMode="pullFromStart" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/wv_progressBar_title"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+			android:progressDrawable="@color/gxs_blue"
+            android:layout_alignParentTop="true"
+			kds:layout_auto_basewidth="height"
+            />
+
+	   <ProgressBar
+     	 style="?android:attr/progressBarStyleSmall"
+        android:id="@+id/wv_ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+	</RelativeLayout>
+
+	<LinearLayout
+		android:id="@+id/ll_note"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:visibility="gone"
+		android:layout_weight="1.0">
+
+		<com.zhy.autolayout.AutoRelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<com.handmark.pulltorefresh.library.PullToRefreshPinnedHeaderListView
+				xmlns:kds="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/pinned_pull_refresh_list"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				kds:ptrAnimationStyle="flip"
+				kds:ptrMode="both"
+				kds:ptrShowFooterText="true">
+
+			</com.handmark.pulltorefresh.library.PullToRefreshPinnedHeaderListView>
+
+			<FrameLayout
+				android:id="@+id/TitleFloatRoot"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+
+			</FrameLayout>
+
+		</com.zhy.autolayout.AutoRelativeLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/ll_text"
+		android:layout_width="match_parent"
+		android:layout_height="100px"
+		android:orientation="horizontal"
+		android:visibility="gone"
+		kds:layout_auto_basewidth="height">
+
+		<TextView
+			android:id="@+id/tv_plan"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:textColor="@color/gxs_sub_title"
+			android:textSize="30px"
+			android:text="计划概述"
+			kds:layout_auto_basewidth="height"/>
+
+		<TextView
+			android:id="@+id/tv_book"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:textColor="@color/gxs_sub_title"
+			android:text="订　　阅"
+			android:textSize="30px"
+			kds:layout_auto_basewidth="height"/>
+
+		<TextView
+			android:id="@+id/tv_note"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:textColor="@color/gxs_sub_title"
+			android:text="订阅须知"
+			android:textSize="30px"
+			kds:layout_auto_basewidth="height"/>
+
+	</LinearLayout>
+
+	<FrameLayout
+		android:id="@+id/videoLayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone"
+		android:background="#000000" />
+
+</com.zhy.autolayout.AutoLinearLayout>

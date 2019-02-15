@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 交易H5模块 融信通/信e融Key 对应的H5界面路径 -->
+    <string name="trade_url_rxt">common/rxt.html</string>
+    <!-- 交易H5模块 业务办理Key 对应的H5界面路径 -->
+    <string name="trade_url_ywbl">common/ywbl.html</string>
+    <!-- 交易H5模块 获取公共Ticket Key 对应的H5界面路径 -->
+    <string name="trade_url_ticket">common/ticket.html</string>
+    <!-- 交易H5模块 股指竞猜(抢红包)Key 对应的H5界面路径 -->
+    <string name="trade_url_quiz">ptjy/qhbhd/qhbhd.html</string>
+    <!-- 交易 H5 模块 新股申购对应的 H5 界面路径 -->
+    <string name="trade_url_xgsg">ptjy/xgsg/ptjy_xgsg.html</string>
+    <!-- 交易 H5 模块 新股申购(一键打新)对应的 H5 界面路径 -->
+    <string name="trade_url_yjdx">ptjy/xgsg/sgrl/ptjy_sgrl.html</string>
+    <!-- 交易 H5 模块 开放式基金对应的 H5 界面路径 -->
+    <string name="trade_url_kfsjj">kfsjj/home/kfsjj_index.html</string>
+</resources>

@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:recyclerview-v7:22.1.0'
+    compile 'com.android.support:support-annotations:23.1.0'
+    //    compile files('libs/open_sdk_r5509.jar')
+    //    compile files('libs/weibosdkcore_v3.1.1.jar')
+    //    compile files('libs/libammsdk.jar')
+    compile 'com.szkingdom:keyboard-stock-search:1.0.8.1'
+    compile project(':framework:framework-common-kernal')
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.1.6'
+    compile files('libs/SocialSDK_QQ_Simplify.jar')
+    compile files('libs/umeng_social_shareboard.jar')
+    compile files('libs/umeng-analytics-7.5.4.jar')
+}

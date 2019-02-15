@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<roma.romaway.commons.android.webkit.RomaPullToRefreshWebView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:roma="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/roma_pull_refresh_webview"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent"
+	    roma:ptrAnimationStyle="flip"
+	    roma:ptrHeaderTextColor="#ff2f2f2f"
+	    roma:ptrMode="both"
+        roma:ptrShowFooterText="false" />
+	
+</LinearLayout>

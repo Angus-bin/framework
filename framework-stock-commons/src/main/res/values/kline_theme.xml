@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- 涨 -->
+	<color name="clr_z">#ffec1b23</color>
+	<!-- 平 -->
+	<color name="clr_p">#ff403f41</color>
+	<!-- 跌 -->
+	<color name="clr_d">#ff00a550</color>
+	<!-- 股票列表头背景 -->
+	<color name="clr_list_stock_head_gb">#ffe6e7e7</color>
+	<!-- 股票列表头间隔线颜色 -->
+	<color name="clr_list_stock_divider">#ffe0e0e0</color>
+	<!-- 股票列表-“自选股票”字颜色 -->
+	<color name="clr_zx_title">#ff9e005d</color>
+
+	<!-- K线-股票数据框高度 -->
+	<dimen name="theme_kline_height_dataBox">50dip</dimen>
+	<!-- K线-k线周期框高度 -->
+	<dimen name="theme_kline_height_timeCycle">27dip</dimen>
+	<!-- K线-均线标题框高度 -->
+	<dimen name="theme_kline_height_avLineTitle">19dip</dimen>
+	<!-- K线-k线主题框高度 -->
+	<dimen name="theme_kline_height_kLineBody">168dip</dimen>
+	<!-- K线-数据指标标题框高度 -->
+	<dimen name="theme_kline_height_techTitle">16dip</dimen>
+	<!-- K线-数据指标主题框高度 -->
+	<dimen name="theme_kline_height_techBody">67dip</dimen>
+	<!-- K线-浮动框框高度 -->
+	<dimen name="theme_kline_height_floatRect">190dip</dimen>
+	<!-- K线-浮动框框高度 -->
+	<dimen name="theme_kline_wide_floatRect">74dip</dimen>
+
+	<!-- K线-指标按钮宽度 -->
+	<dimen name="theme_kline_wide_techItem_w">42dip</dimen>
+	<!-- K线-指标按钮高度 -->
+	<dimen name="theme_kline_height_techItem_h">14dip</dimen>
+	<!-- K线-k线主体框左侧的价格显示框宽度 -->
+	<dimen name="theme_kline_wide_priceBox">73dip</dimen>
+	<!-- K线-指标主体框左侧的数据显示框宽度 -->
+	<dimen name="theme_kline_wide_techData">73dip</dimen>
+	<!-- K线-k线周期字体大小 -->
+	<dimen name="theme_kline_wide_timeCycleText">14dip</dimen>
+	<!-- K线-均线数据字体大小 -->
+	<dimen name="theme_kline_wide_avLineDataText">13dip</dimen>
+	<!-- K线-k线价格数字字体大小 -->
+	<dimen name="theme_kline_wide_priceDataText">13dip</dimen>
+	<!-- K线-指标数值字体大小 -->
+	<dimen name="theme_kline_wide_techDataText">13dip</dimen>
+<!-- K线-浮动框数值字体大小 -->
+	<dimen name="theme_kline_floatText">11dip</dimen>
+
+	<!-- K线-背景色颜色 -->
+	<color name="clr_kline_background">#231F1F</color>
+	<!-- K线周期未选中字体颜色 -->
+	<color name="clr_kline_cycleTextOn">#FFFFFF</color>
+	<!-- K线周期选中字体颜色 -->
+	<color name="clr_kline_cycleTextOff">#6D6F71</color>
+	<!-- K线框线条颜色 -->
+	<color name="clr_kline_lineColor">#333332</color>
+	<!-- K线十字线线条颜色 -->
+	<color name="clr_kline_crosslineColor">#F6921D</color>
+	<!-- K线-线框实线条宽度 -->
+	<dimen name="theme_kline_wide_realline">2dip</dimen>
+	<!-- K线-线框虚线线条宽度 -->
+	<dimen name="theme_kline_wide_dottedline">1dip</dimen>
+	<!-- K线-十字线线条宽度 -->
+	<dimen name="theme_kline_wide_crossline">1dip</dimen>
+
+	<!-- k线横屏数据 -->
+	<!-- K线横屏范围高 -->
+	<dimen name="kline_scape_height_Title">33dip</dimen>
+	<!-- K线横屏周期高 -->
+	<dimen name="kline_scape_height_Cycle">24dip</dimen>
+	<!-- K线横屏数据框高 -->
+	<dimen name="kline_scape_height_klineData">193dip</dimen>
+	<!-- K线横屏数据框宽 -->
+	<dimen name="kline_scape_wide_klineData">73dip</dimen>
+	<!-- K线横屏k线框高 -->
+	<dimen name="kline_scape_height_kline">176dip</dimen>
+	<!-- K线横屏线条宽度 -->
+	<dimen name="kline_scape_height_linescape">1dip</dimen>
+	<!-- K线横屏日期框高 -->
+	<dimen name="kline_scape_height_date">15dip</dimen>
+	<!-- K线横屏指标框高 -->
+	<dimen name="kline_scape_height_tech">45dip</dimen>
+	<!-- K线-k线横屏周期字体大小 -->
+	<dimen name="kline_scape_wide_timeCycleText">14dip</dimen>
+	<!-- K线-k线横屏周期与k线框的间隔 -->
+	<dimen name="kline_scape_height_step">3dip</dimen>
+	<!-- K线-k线横屏跳转按钮高 -->
+	<dimen name="kline_scape_height_jumpH">27dip</dimen>
+	<!-- K线-k线横屏屏跳转按钮宽 -->
+	<dimen name="kline_scape_height_jumpW">70dip</dimen>
+	<!-- K线-k线横屏名称字体大小 -->
+	<dimen name="kline_scape_name">17dip</dimen>
+	<!-- K线-k线横屏代码字体大小 -->
+	<dimen name="kline_scape_code">14dip</dimen>
+	<!-- K线-k线横屏MA字体大小 -->
+	<dimen name="kline_scape_ma">11dip</dimen>
+	<!-- K线-标题名称颜色 -->
+	<color name="clr_kline_name">#FCEE21</color>
+	<!-- K线-标题代码颜色 -->
+	<color name="clr_kline_code">#FFFFFF</color>
+	<!-- K线-标题数值涨颜色 -->
+	<color name="clr_kline_up">#EB2227</color>
+	<!-- K线-标题数值跌颜色 -->
+	<color name="clr_kline_down">#00A651</color>
+	<!-- K线-标题数值平颜色 -->
+	<color name="clr_kline_tie">#FFFFFF</color>
+
+	
+
+	<!-- K线-颜色A0白色 -->
+	<color name="KL_A0">#FFFFFF</color>
+
+	<!-- K线-颜色A1 红色-->
+	<color name="KL_A1">#EB2227</color>
+
+	<!-- K线-颜色A2绿色 -->
+	<color name="KL_A2">#00A651</color>
+
+	<!-- K线-颜色A3黄色 -->
+	<color name="KL_A3">#FCEE21</color>
+
+	<!-- K线-颜色A4浅黑色 -->
+	<color name="KL_A4">#333332</color>
+	<!-- K线-颜色A5蓝色 -->
+	<color name="KL_A5">#81D1E0</color>
+	<!-- K线-颜色A6 浅灰色 -->
+	<color name="KL_A6">#929496</color>
+	<!-- K线-颜色A7 灰色-->
+	<color name="KL_A7">#676767</color>
+	<!-- K线-颜色A8 橘黄色-->
+	<color name="KL_A8">#F6921D</color>
+	<!-- K线-颜色A9 紫色-->
+	<color name="KL_A9">#FF00FF</color>
+
+
+	<!-- K线-k线指标自定义对话框高度 -->
+	<dimen name="kline_menu_height">120dip</dimen>
+	<!-- K线-k线指标自定义对话框宽度 -->
+	<dimen name="kline_menu_width">300dip</dimen>
+	<!-- 对话框的左右padding -->
+	<dimen name="kline_menu_margin_lr">8dip</dimen>
+	<!-- 对话框上下的padding -->
+	<dimen name="kline_menu_padding_tb">5dip</dimen>
+	<!-- 对话框左右的padding -->
+	<dimen name="kline_menu_padding_lr">5dip</dimen>
+	<!-- 对话框按钮的外边框左右 -->
+	<dimen name="kline_menu_btn_margin_lr">5dip</dimen>
+	<!-- 对话框按钮的外边框上下 -->
+	<dimen name="kline_menu_btn_margin_tb">5dip</dimen>
+	<!-- 导航三角的高度 -->
+	<dimen name="kline_menu_triangle_height">12dip</dimen>
+	<!-- 导航三角的宽度 -->
+	<dimen name="kline_menu_triangle_width">24.5dip</dimen>
+
+	<!-- 弹出点高度 -->
+    <dimen name="jy_popwindow_begin_height">44dip</dimen>
+
+</resources>

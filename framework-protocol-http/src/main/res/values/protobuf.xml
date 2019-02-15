@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 行情Protobuf Bitmap字段对应值 -->
+    <integer name="optional_tradeClassify">0</integer><!-- 买卖档位数据集 -->
+    <integer name="optional_nZrsp">1</integer><!-- 昨日收盘 -->
+    <integer name="optional_nJrkp">2</integer><!-- 今日开盘 -->
+    <integer name="optional_nZgcj">3</integer><!-- 最高成交 -->
+    <integer name="optional_nZdcj">4</integer><!-- 最低成交 -->
+    <integer name="optional_nCjss">5</integer><!-- 成交数量 -->
+    <integer name="optional_nZf">6</integer><!-- 振幅 -->
+    <integer name="optional_nCjje">7</integer><!-- 成交金额 -->
+    <integer name="optional_nBjg1">8</integer><!-- 买一价 -->
+    <integer name="optional_nSjg1">9</integer><!-- 卖一价 -->
+    <integer name="optional_nBsl1">10</integer><!-- 买一量 -->
+    <integer name="optional_nSsl1">11</integer><!-- 卖一量 -->
+    <integer name="optional_nZd">12</integer><!-- 涨跌 -->
+    <integer name="optional_nLb">13</integer><!-- 量比 -->
+    <integer name="optional_n5Min">14</integer><!-- 5分钟涨速 -->
+    <integer name="optional_nHsl">15</integer><!-- 换手率 -->
+    <integer name="optional_nSyl">16</integer><!-- 市盈率 -->
+    <integer name="optional_wZjs">17</integer><!-- 涨家数 -->
+    <integer name="optional_wDjs">18</integer><!-- 跌家数 -->
+    <integer name="optional_wPjs">19</integer><!-- 平家数 -->
+    <integer name="optional_nLTP">20</integer><!-- 流通盘 -->
+    <integer name="optional_nZSZ">21</integer><!-- 总市值 -->
+    <integer name="optional_ExercisePrice">22</integer><!-- 行权价 -->
+    <integer name="optional_TotalLongPosition">23</integer><!-- 持仓量 -->
+    <integer name="optional_cangCha">24</integer><!-- 仓差 -->
+    <integer name="optional_ContractMultiplierUnit">25</integer><!-- 单位 -->
+    <integer name="optional_SurplusDays">26</integer><!-- 剩余天数 -->
+    <integer name="optional_option_flag">27</integer><!-- 期权实时阶段及标识 -->
+    <integer name="optional_nLimUp">28</integer><!-- 涨停价 -->
+    <integer name="optional_nLimDown">29</integer><!-- 跌停价 -->
+    <integer name="optional_wCYDZS">30</integer><!-- 分时总的采样点数 -->
+    <integer name="optional_wStockStatus">31</integer><!-- 股票交易状态 -->
+    <integer name="optional_blockID">32</integer><!-- 板块id -->
+    <integer name="optional_blockName">33</integer><!-- 板块名称 -->
+    <integer name="optional_blockZDF">34</integer><!-- 板块涨跌幅 -->
+    <integer name="optional_hgt_cv_data">35</integer><!-- 沪港通盘中熔断及盘后集合竞价 -->
+    <integer name="optional_gz_type_group">36</integer><!-- 股转类型组合 -->
+
+
+    <!-- int[] reqFields = {0, 1, 2, 3, 4, 5, 6, 7,     12, 15, 16, 17, 18, 19, 20, 21, 31, 35}; -->
+    <integer-array name="hq_fszh_protocol_bitmap">
+        <item>@integer/optional_tradeClassify</item>         <!-- 0 买卖档位数据集 -->
+        <item>@integer/optional_nZrsp</item>                 <!-- 1 昨日收盘 -->
+        <item>@integer/optional_nJrkp</item>                 <!-- 2 今日开盘 -->
+        <item>@integer/optional_nZgcj</item>                 <!-- 3 最高成交 -->
+        <item>@integer/optional_nZdcj</item>                 <!-- 4 最低成交 -->
+        <item>@integer/optional_nCjss</item>                 <!-- 5 成交数量 -->
+        <item>@integer/optional_nZf</item>                   <!-- 6 振幅 -->
+        <item>@integer/optional_nCjje</item>                 <!-- 7 成交金额 -->
+        <item>@integer/optional_nBjg1</item>                 <!-- 8 买一价 -->
+        <item>@integer/optional_nSjg1</item>                 <!-- 9 卖一价 -->
+        <item>@integer/optional_nBsl1</item>                 <!-- 10 买一量 -->
+        <item>@integer/optional_nSsl1</item>                 <!-- 11 卖一量 -->
+        <item>@integer/optional_nZd</item>                   <!-- 12 涨跌 -->
+        <!--<item>@integer/optional_nLb</item>                   &lt;!&ndash; 13 量比 &ndash;&gt;-->
+        <!--<item>@integer/optional_n5Min</item>                 &lt;!&ndash; 14 5分钟涨速 &ndash;&gt;-->
+        <item>@integer/optional_nHsl</item>                  <!-- 15 换手率 -->
+        <item>@integer/optional_nSyl</item>                  <!-- 16 市盈率 -->
+        <item>@integer/optional_wZjs</item>                  <!-- 17 涨家数 -->
+        <item>@integer/optional_wDjs</item>                  <!-- 18 跌家数 -->
+        <item>@integer/optional_wPjs</item>                  <!-- 19 平家数 -->
+        <item>@integer/optional_nLTP</item>                  <!-- 20 流通盘 -->
+        <item>@integer/optional_nZSZ</item>                  <!-- 21 总市值 -->
+        <item>@integer/optional_ExercisePrice</item>         <!-- 22 行权价 -->
+        <item>@integer/optional_TotalLongPosition</item>     <!-- 23 持仓量 -->
+        <item>@integer/optional_cangCha</item>               <!-- 24 仓差 -->
+        <item>@integer/optional_ContractMultiplierUnit</item><!-- 25 单位 -->
+        <item>@integer/optional_SurplusDays</item>           <!-- 26 剩余天数 -->
+        <!--<item>@integer/optional_option_flag</item>           &lt;!&ndash; 27 期权实时阶段及标识 &ndash;&gt;-->
+        <!--<item>@integer/optional_nLimUp</item>                &lt;!&ndash; 28 涨停价 &ndash;&gt;-->
+        <!--<item>@integer/optional_nLimDown</item>              &lt;!&ndash; 29 跌停价 &ndash;&gt;-->
+        <!--<item>@integer/optional_wCYDZS</item>                &lt;!&ndash; 30 分时总的采样点数 &ndash;&gt;-->
+        <item>@integer/optional_wStockStatus</item>          <!-- 31 股票交易状态 -->
+        <!--<item>@integer/optional_blockID</item>               &lt;!&ndash; 32 板块id &ndash;&gt;-->
+        <!--<item>@integer/optional_blockName</item>             &lt;!&ndash; 33 板块名称 &ndash;&gt;-->
+        <!--<item>@integer/optional_blockZDF</item>              &lt;!&ndash; 34 板块涨跌幅 &ndash;&gt;-->
+        <item>@integer/optional_hgt_cv_data</item>           <!-- 35 沪港通盘中熔断及盘后集合竞价 -->
+        <item>@integer/optional_gz_type_group</item>         <!-- 36 股转类型组合 -->
+    </integer-array>
+
+    <!-- 沪深大盘指数 -->
+    <integer-array name="hq_hsdp_protocol_bitmap">
+        <item>@integer/optional_nZrsp</item>                 <!-- 1 昨日收盘 -->
+        <item>@integer/optional_nJrkp</item>                 <!-- 2 今日开盘 -->
+        <item>@integer/optional_nZd</item>                   <!-- 12 涨跌 -->
+    </integer-array>
+
+    <integer-array name="hq_stocklist_protocol_bitmap">
+        <item>@integer/optional_nZrsp</item>                 <!-- 1 昨日收盘 -->
+        <item>@integer/optional_nJrkp</item>                 <!-- 2 今日开盘 -->
+        <item>@integer/optional_nZgcj</item>                 <!-- 3 最高成交 -->
+        <item>@integer/optional_nZdcj</item>                 <!-- 4 最低成交 -->
+        <item>@integer/optional_nCjss</item>                 <!-- 5 成交数量 -->
+        <item>@integer/optional_nCjje</item>                 <!-- 7 成交金额 -->
+        <item>@integer/optional_nZd</item>                   <!-- 12 涨跌 -->
+        <item>@integer/optional_nHsl</item>                  <!-- 15 换手率 -->
+        <item>@integer/optional_nSyl</item>                  <!-- 16 市盈率 -->
+    </integer-array>
+
+    <!-- int[] reqFields = new int[]{1, 2, 3, 4, 5, 7, 12, 16}; -->
+    <integer-array name="hq_hangqing_list_protocol_bitmap">
+        <item>@integer/optional_nZrsp</item>                 <!-- 1 昨日收盘 -->
+        <item>@integer/optional_nJrkp</item>                 <!-- 2 今日开盘 -->
+        <item>@integer/optional_nZgcj</item>                 <!-- 3 最高成交 -->
+        <item>@integer/optional_nZdcj</item>                 <!-- 4 最低成交 -->
+        <item>@integer/optional_nCjss</item>                 <!-- 5 成交数量 -->
+        <item>@integer/optional_nCjje</item>                 <!-- 7 成交金额 -->
+        <item>@integer/optional_nZd</item>                   <!-- 12 涨跌 -->
+        <item>@integer/optional_nSyl</item>                  <!-- 16 市盈率 -->
+    </integer-array>
+
+    <!-- int[] reqFields = new int[]{1, 2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16}; -->
+    <integer-array name="hq_hushen_more_list_protocol_bitmap">
+        <item>@integer/optional_nZrsp</item>                 <!-- 1 昨日收盘 -->
+        <item>@integer/optional_nJrkp</item>                 <!-- 2 今日开盘 -->
+        <item>@integer/optional_nZgcj</item>                 <!-- 3 最高成交 -->
+        <item>@integer/optional_nZdcj</item>                 <!-- 4 最低成交 -->
+        <item>@integer/optional_nCjss</item>                 <!-- 5 成交数量 -->
+        <item>@integer/optional_nCjje</item>                 <!-- 7 成交金额 -->
+        <item>@integer/optional_nZd</item>                   <!-- 12 涨跌 -->
+        <item>@integer/optional_nSyl</item>                  <!-- 16 市盈率 -->
+
+        <item>@integer/optional_nZf</item>                   <!-- 6 振幅 -->
+        <item>@integer/optional_nLb</item>                   <!-- 13 量比 -->
+        <item>@integer/optional_n5Min</item>                 <!-- 14 5分钟涨速 -->
+        <item>@integer/optional_nHsl</item>                  <!-- 15 换手率 -->
+    </integer-array>
+
+    <integer-array name="hq_stocklist_zdf_protocol_bitmap">
+        <item>@integer/optional_nZrsp</item>                 <!-- 1 昨日收盘 -->
+    </integer-array>
+
+    <!-- int[] reqFields = new int[]{1, 2, 3, 4, 6, 12, 13, 14, 15, 16}; -->
+    <integer-array name="hq_stocklist_other_protocol_bitmap">
+        <item>@integer/optional_nZrsp</item>                 <!-- 1 昨日收盘 -->
+        <item>@integer/optional_nJrkp</item>                 <!-- 2 今日开盘 -->
+        <item>@integer/optional_nZgcj</item>                 <!-- 3 最高成交 -->
+        <item>@integer/optional_nZdcj</item>                 <!-- 4 最低成交 -->
+        <item>@integer/optional_nZf</item>                   <!-- 6 振幅 -->
+        <item>@integer/optional_nZd</item>                   <!-- 12 涨跌 -->
+        <item>@integer/optional_nLb</item>                   <!-- 13 量比 -->
+        <item>@integer/optional_n5Min</item>                 <!-- 14 5分钟涨速 -->
+        <item>@integer/optional_nHsl</item>                  <!-- 15 换手率 -->
+        <item>@integer/optional_nSyl</item>                  <!-- 16 市盈率 -->
+    </integer-array>
+
+    <!-- 投顾功能行情所需字段 -->
+    <integer-array name="hq_tougug_data_protocol_bitmap">
+        <item>@integer/optional_nLimUp</item>                <!-- 28 涨停价 -->
+        <item>@integer/optional_nLimDown</item>              <!-- 29 跌停价 -->
+        <item>@integer/optional_blockID</item>               <!-- 32 板块id -->
+        <item>@integer/optional_blockName</item>             <!-- 33 板块名称 -->
+    </integer-array>
+
+
+    <!--
+        <item>@integer/optional_tradeClassify</item>         &lt;!&ndash; 0 买卖档位数据集 &ndash;&gt;
+        <item>@integer/optional_nZrsp</item>                 &lt;!&ndash; 1 昨日收盘 &ndash;&gt;
+        <item>@integer/optional_nJrkp</item>                 &lt;!&ndash; 2 今日开盘 &ndash;&gt;
+        <item>@integer/optional_nZgcj</item>                 &lt;!&ndash; 3 最高成交 &ndash;&gt;
+        <item>@integer/optional_nZdcj</item>                 &lt;!&ndash; 4 最低成交 &ndash;&gt;
+        <item>@integer/optional_nCjss</item>                 &lt;!&ndash; 5 成交数量 &ndash;&gt;
+        <item>@integer/optional_nZf</item>                   &lt;!&ndash; 6 振幅 &ndash;&gt;
+        <item>@integer/optional_nCjje</item>                 &lt;!&ndash; 7 成交金额 &ndash;&gt;
+        <item>@integer/optional_nBjg1</item>                 &lt;!&ndash; 8 买一价 &ndash;&gt;
+        <item>@integer/optional_nSjg1</item>                 &lt;!&ndash; 9 卖一价 &ndash;&gt;
+        <item>@integer/optional_nBsl1</item>                 &lt;!&ndash; 10 买一量 &ndash;&gt;
+        <item>@integer/optional_nSsl1</item>                 &lt;!&ndash; 11 卖一量 &ndash;&gt;
+        <item>@integer/optional_nZd</item>                   &lt;!&ndash; 12 涨跌 &ndash;&gt;
+        <item>@integer/optional_nLb</item>                   &lt;!&ndash; 13 量比 &ndash;&gt;
+        <item>@integer/optional_n5Min</item>                 &lt;!&ndash; 14 5分钟涨速 &ndash;&gt;
+        <item>@integer/optional_nHsl</item>                  &lt;!&ndash; 15 换手率 &ndash;&gt;
+        <item>@integer/optional_nSyl</item>                  &lt;!&ndash; 16 市盈率 &ndash;&gt;
+        <item>@integer/optional_wZjs</item>                  &lt;!&ndash; 17 涨家数 &ndash;&gt;
+        <item>@integer/optional_wDjs</item>                  &lt;!&ndash; 18 跌家数 &ndash;&gt;
+        <item>@integer/optional_wPjs</item>                  &lt;!&ndash; 19 平家数 &ndash;&gt;
+        <item>@integer/optional_nLTP</item>                  &lt;!&ndash; 20 流通盘 &ndash;&gt;
+        <item>@integer/optional_nZSZ</item>                  &lt;!&ndash; 21 总市值 &ndash;&gt;
+        <item>@integer/optional_ExercisePrice</item>         &lt;!&ndash; 22 行权价 &ndash;&gt;
+        <item>@integer/optional_TotalLongPosition</item>     &lt;!&ndash; 23 持仓量 &ndash;&gt;
+        <item>@integer/optional_cangCha</item>               &lt;!&ndash; 24 仓差 &ndash;&gt;
+        <item>@integer/optional_ContractMultiplierUnit</item>&lt;!&ndash; 25 单位 &ndash;&gt;
+        <item>@integer/optional_SurplusDays</item>           &lt;!&ndash; 26 剩余天数 &ndash;&gt;
+        <item>@integer/optional_option_flag</item>           &lt;!&ndash; 27 期权实时阶段及标识 &ndash;&gt;
+        <item>@integer/optional_nLimUp</item>                &lt;!&ndash; 28 涨停价 &ndash;&gt;
+        <item>@integer/optional_nLimDown</item>              &lt;!&ndash; 29 跌停价 &ndash;&gt;
+        <item>@integer/optional_wCYDZS</item>                &lt;!&ndash; 30 分时总的采样点数 &ndash;&gt;
+        <item>@integer/optional_wStockStatus</item>          &lt;!&ndash; 31 股票交易状态 &ndash;&gt;
+        <item>@integer/optional_blockID</item>               &lt;!&ndash; 32 板块id &ndash;&gt;
+        <item>@integer/optional_blockName</item>             &lt;!&ndash; 33 板块名称 &ndash;&gt;
+        <item>@integer/optional_blockZDF</item>              &lt;!&ndash; 34 板块涨跌幅 &ndash;&gt;
+        <item>@integer/optional_hgt_cv_data</item>           &lt;!&ndash; 35 沪港通盘中熔断及盘后集合竞价 &ndash;&gt;
+        <item>@integer/optional_gz_type_group</item>         &lt;!&ndash; 36 股转类型组合 &ndash;&gt;
+    -->
+
+    <!--
+        enum <integer name="optional_fields {
+        optional_tradeClassify           = 0;		// 买卖档位数据集
+        optional_nZrsp                   = 1; 		// 昨日收盘
+        optional_nJrkp                   = 2; 		//今日开盘
+        optional_nZgcj                   = 3; 		//最高成交
+        optional_nZdcj                   = 4; 		//最低成交
+        optional_nCjss                   = 5; 		//成交数量
+        optional_nZf                     = 6; 		//振幅
+        optional_nCjje                   = 7; 		//成交金额
+        optional_nBjg1                   = 8; 		//买一价
+        optional_nSjg1                   = 9;		//卖一价
+        optional_nBsl1                   = 10;		//买一量
+        optional_nSsl1                   = 11;		//卖一量
+        optional_nZd                     = 12;		//涨跌
+        optional_nLb                     = 13;		//量比
+        optional_n5Min                   = 14;		//5分钟涨速
+        optional_nHsl                    = 15;		//换手率
+        optional_nSyl                    = 16;		//市盈率
+        optional_wZjs                    = 17;		//涨家数
+        optional_wDjs                    = 18;		//跌家数
+        optional_wPjs                    = 19;		//平家数
+        optional_nLTP                    = 20;		// 流通盘
+        optional_nZSZ                    = 21;		// 总市值
+        optional_ExercisePrice           = 22;		//行权价
+        optional_TotalLongPosition       = 23;		//持仓量
+        optional_cangCha                 = 24;		//仓差
+        optional_ContractMultiplierUnit  = 25;		//单位
+        optional_SurplusDays             = 26;		//剩余天数
+        optional_option_flag             = 27;		//期权实时阶段及标识
+        optional_nLimUp                  = 28;		//涨停价
+        optional_nLimDown                = 29;		//跌停价
+        optional_wCYDZS                  = 30;		//分时总的采样点数
+        optional_wStockStatus            = 31;		//股票交易状态
+        optional_blockID                 = 32;		//板块id
+        optional_blockName               = 33;		//板块名称
+        optional_blockZDF                = 34;		//板块涨跌幅
+        optional_hgt_cv_data             = 35;		//沪港通盘中熔断及盘后集合竞价
+        optional_gz_type_group           = 36;		//股转类型组合
+        }
+    -->
+</resources>

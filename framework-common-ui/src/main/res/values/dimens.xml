@@ -1,0 +1,7 @@
+<resources>
+	<dimen name="windowMarginLeft">15dp</dimen>
+	<dimen name="windowMarginRight">10dp</dimen>
+	
+	<dimen name="roma_lib_backbtn_width">42px</dimen>
+    <dimen name="roma_lib_backbtn_height">38px</dimen>
+</resources>

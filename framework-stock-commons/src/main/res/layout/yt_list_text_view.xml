@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.romaway.framework.RomaMaxHeightView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:maxHeightDimen="@dimen/abs__dialog_height">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_auto_basewidth="marginBottom"
+        android:layout_marginBottom="10dp">
+
+        <ListView
+            android:id="@+id/lv_msg"
+            android:dividerHeight="0px"
+            android:divider="#00ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_auto_basewidth="paddingTop"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:paddingTop="15px">
+        </ListView>
+
+        <ImageView
+            android:id="@+id/iv_gradient_bar_image"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@+id/lv_msg"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/yt_dialog_gradient_bar" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.romaway.framework.RomaMaxHeightView>

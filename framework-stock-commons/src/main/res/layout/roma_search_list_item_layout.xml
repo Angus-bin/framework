@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/list_item_minheight"
+    android:orientation="horizontal"
+    android:baselineAligned="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_weight="1" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+            android:id="@+id/txt_stockMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="HK"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+            <ImageView
+                android:id="@+id/img_stockMark"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:visibility="gone"/>
+            
+            <TextView
+            android:id="@+id/txt_stockName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="金证股份"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/search_list_item_textsize" />
+        </LinearLayout>
+
+        
+
+        <TextView
+            android:id="@+id/txt_stockCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="(600446)"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/search_list_item_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ll_add" >
+
+        <TextView
+            android:id="@+id/txt_add_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已添加"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/search_list_item_textsize"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_stock_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/roma_tg_search_suspension_bg_color"
+            android:textColor="#ffffffff"
+            android:visibility="gone"
+            android:text="停牌"/>
+
+        <com.trevorpage.tpsvg.SVGView
+	        android:id="@+id/simg_add"
+	        android:layout_width="@dimen/abs__shortcut_svg_size"
+	        android:layout_height="@dimen/abs__shortcut_svg_size"
+	       />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abs__action_bar_default_height"
+    android:id="@+id/rl_titleParent" >
+
+    <com.trevorpage.tpsvg.SVGView
+        android:id="@+id/svg_back_icon"
+        android:layout_width="@dimen/abs__shortcut_svg_size"
+        android:layout_height="@dimen/abs__shortcut_svg_size"
+        android:layout_centerVertical="true"
+        >
+    </com.trevorpage.tpsvg.SVGView>
+
+    <com.romaway.framework.view.RomaWaySwitchTowView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:id="@+id/SwitchTowView"
+    />
+
+    <LinearLayout
+        android:id="@+id/ll_sb_create"
+        android:layout_width="77px"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true">
+
+        <com.trevorpage.tpsvg.SVGView
+            android:id="@+id/sb_create"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abs__action_bar_default_height">45dip</dimen>
+   <dimen name="abs__bottom_action_bar_default_height">52dip</dimen>
+      
+         <dimen name="bottom_bar_you_wen">63.96dip</dimen>
+    			<dimen name="you_wen_line">66dip</dimen>
+    		<dimen name="bottom_bar_line">52.8dip</dimen>
+    		
+    <dimen name="abs__init_adv_button_height">35dip</dimen>
+   
+    <dimen name="abs__top_bar_view_title_size">8sp</dimen>
+    
+    <dimen name="setting_item_minheight">44dip</dimen>
+   <dimen name="list_item_minheight">53dip</dimen>
+   <dimen name="bottom_list_item_minheight">48dp</dimen>
+   <dimen name="list_item_minheight2">70dip</dimen>
+    <dimen name="list_title_minheight">40dp</dimen>
+    
+    <dimen name="abs__switch_tow_title_width">200dip</dimen>
+    
+    <dimen name="abs__font_size00">23dip</dimen>
+    <dimen name="abs__font_size0">21dip</dimen>
+    <dimen name="abs__font_size000">20dip</dimen>
+   <dimen name="abs__font_size1">19dip</dimen>
+   <dimen name="abs__font_size11">18dip</dimen>
+   <dimen name="abs__font_size12">17dip</dimen>
+   <dimen name="abs__font_size2">16dip</dimen>
+   <dimen name="abs__font_size22">15dip</dimen>
+    <dimen name="abs__font_size3">14dip</dimen>
+    <dimen name="abs__font_size31">13dip</dimen>
+     <dimen name="abs__font_size4">12dip</dimen>  
+     <dimen name="abs__font_size_initadv">10dip</dimen>
+     
+     <dimen name="abs__item_text_title_size">16dip</dimen>
+     
+     <dimen name="abs__shortcut_svg_size">25dip</dimen>
+     <dimen name="abs__top_right_svg_size">28dip</dimen>
+        <dimen name="abs__top_left_svg_size">30dip</dimen>
+        <dimen name="info_center_svg_size">40dip</dimen>
+     
+</resources>

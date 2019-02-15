@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 个股详情界面 -->
+    <string name="hq_stock_data_info_fragment_activity">kds.szkingdom.android.phone.activity.hq.HQStockDataInfoFragmentActivity</string>
+    <!-- 初始化界面 -->
+    <string name="Package_Class_KdsInitActivity">roma.romaway.init.android.RomaInitActivity</string>
+    <!-- Main主界面 -->
+    <string name="Package_Class_UserMainActivity">roma.romaway.main.android.MainActivity</string>
+    <!-- 普通交易模块界面Framgnet -->
+    <string name="jiaoYiModeFragment">kds.szkingdom.jiaoyi.android.phone.activity.jy.JiaoYiSherlockFragment</string>
+    <!-- 融资融券模块界面Framgnet -->
+    <string name="rzrqModeFragment">kds.szkingdom.jiaoyi.android.phone.activity.jy.RzrqSherlockFragment</string>
+    <!-- 行情市场模块界面Framgnet -->
+    <string name="hangQingModeFragment">roma.romaway.zixuan.android.RomaUserStockNewsSherlockFragment</string>
+    <!-- 投顾界面Framgnet -->
+    <string name="TouguMyFragment">kds.szkingdom.commons.android.tougu.TouguMyFragment</string>
+    <string name="Package_Class_KdsDialog">com.szkingdom.android.phone.widget.KdsDialog</string>
+
+    <!-- 用户反馈界面Activity -->
+    <string name="woModeUserFeedBackActivity">roma.romaway.wo.android.phone.UserFeedBackSendActivity</string>
+
+    <!-- 用户反馈界面Activity -->
+    <string name="woModeUserFeedBackActivityNew">roma.romaway.wo.android.phone.UserFeedBackSendActivityNew</string>
+
+    <!-- 用户反馈界面Activity -->
+    <string name="woModeAccountBindPhone">roma.romaway.wo.android.phone.RomaAccountBindPhoneActivity</string>
+
+    <!-- 投顾组合 组合配置界面 -->
+    <string name="Package_TouguDeployPortfolioActivity">com.szkingdom.tougu.TouguDeployPortfolioFragmentActivity</string>
+    <!-- 投顾组合 创建组合建仓界面 -->
+    <string name="Package_TouguCreatePortfolioActivity">com.szkingdom.tougu.TouguCreatePortfolioFragmentActivity</string>
+</resources>

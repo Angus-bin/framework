@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:kds="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abs__action_bar_default_height" >
+
+        <com.trevorpage.tpsvg.SVGView
+            android:id="@+id/svg_back"
+            android:layout_width="@dimen/actionbar_icon_view_side"
+            android:layout_height="@dimen/actionbar_icon_view_side"
+            android:layout_gravity="center"
+			android:padding="5dp"
+            android:layout_marginLeft="@dimen/actionbar_icon_view_padding_left"
+            android:layout_marginRight="8dip"
+			android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/txt_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/svg_back"
+            android:text="@string/roma_actionbar_close"
+            android:textColor="@color/abs__background_white"
+            android:visibility="gone"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/abs__background_white"
+            android:textSize="@dimen/abs__action_bar_title_text_size" />
+
+        <com.trevorpage.tpsvg.SVGView
+            android:id="@+id/svg_guanzhu_icon"
+            android:layout_width="42px"
+            android:layout_height="42px"
+            android:layout_marginRight="@dimen/actionbar_icon_view_spacing"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+		<ImageView
+			android:id="@+id/svg_right_icon2"
+			android:layout_width="@dimen/actionbar_icon_view_side"
+			android:layout_height="@dimen/actionbar_icon_view_side"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="5dp"
+			android:padding="5dp"
+			android:visibility="gone"
+			android:src="@drawable/roma_web_user_center_icon" />
+
+		<ImageView
+			android:id="@+id/svg_right_icon1"
+			android:layout_width="@dimen/actionbar_icon_view_side"
+			android:layout_height="@dimen/actionbar_icon_view_side"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="5dp"
+			android:layout_toLeftOf="@+id/svg_right_icon2"
+			android:padding="5dp"
+			android:visibility="gone"
+			android:src="@drawable/roma_web_search_icon" />
+
+		<TextView
+			android:id="@+id/txt_order_record"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:text="订单记录"
+			android:textColor="@color/abs__background_white"
+			android:visibility="gone"
+			android:textSize="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_img_right"
+            android:layout_width="70px"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/img_right_icon"
+                android:layout_width="@dimen/actionbar_icon_view_side"
+                android:layout_height="@dimen/actionbar_icon_view_side"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="30px"
+                android:visibility="gone"
+                android:src="@drawable/roma_web_user_center_icon" />
+
+        </RelativeLayout>
+	</RelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1.0"
+	    android:id="@+id/root" >
+	   <roma.romaway.commons.android.webkit.RomaWebView
+	       android:id="@+id/wv_romaWebView"
+	        android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	       />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/wv_progressBar_title"
+            android:layout_width="match_parent"
+			android:layout_height="5px"
+            android:layout_alignParentTop="true"
+			android:progressDrawable="@color/gxs_blue"
+			kds:layout_auto_basewidth="height"
+            />
+
+	   <ProgressBar
+     	 style="?android:attr/progressBarStyleSmall"
+        android:id="@+id/wv_ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+	</RelativeLayout>
+
+</LinearLayout>

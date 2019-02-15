@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#7F000000</color>
+    <color name="zxjt_transparent">#fff5f5f5</color>
+    <color name="abs__background_holo_dark">#ff11141b</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
+    <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    
+     <color name="abs__action_bar_background_color">#ff1f262e</color>
+     <color name="abs__action_bar_background_color2">#ffffffff</color>
+     <color name="abs__action_bar_background_color3">#ffff0000</color>
+     <color name="abs__action_bar_background_landscape_color1">#ffc6c7cd</color>
+     <color name="abs__action_bar_background_landscape_color2">#ffe3e3e3</color>
+     
+    <color name="abs__divider_color">#ffd8d8d8</color>
+    <color name="abs__divider_color1">#ff1f262e</color>
+    <color name="abs__divider_color2">#bebebe</color>
+    <color name="abs__divider_color3">#e0e0e0</color>
+    
+    <color name="abs__list_title_background">#ffebebeb</color>
+    <!-- 字体颜色 -->
+     <color name="abs__font_color0">#ff242424</color>
+     <color name="abs__font_color00">#ff545454</color>
+    <color name="abs__font_color1">#ff747474</color>
+    <color name="abs__font_color11">#ff8a8a8a</color>
+    <color name="abs__font_color2">#ffa4a4a4</color>
+    <color name="abs__font_color22">#ffd0d0d0</color> 
+    <color name="abs__font_color3">#ffeaeaea</color>
+    <color name="abs__keyboard_font_color">#ff535353</color>
+    <color name="abs__keyboard_divider_color">#ffcdcdcd</color>
+    <!-- 常用板块底色 -->
+    <color name="abs__background_white">#ffffff</color>
+    <!-- 背景底色、Tab和标题底色 -->
+    <color name="abs__background_white2">#f5f5f5</color>
+    <!-- Tab选择块底色、按钮底色 -->
+    <color name="abs__background_red_normal">#f57373</color>
+    <!-- 涨幅数据、选中、提示等用色 -->
+    <color name="abs__background_red_rise">#f53434</color>
+    <!-- 跌幅数据 -->
+    <color name="abs__background_green_fall">#009900</color>
+    <!-- 表格文字1，重点文字 -->
+    <color name="abs__font_table_textcolor1">#303030</color>
+    <!-- 表格文字2，内容文字 -->
+    <color name="abs__font_table_textcolor2">#555555</color>
+    <!-- 表格文字3 -->
+    <color name="abs__font_table_textcolor3">#888888</color>
+    <!-- 提示性文字 -->
+    <color name="abs__font_msg_textcolor">#149eff</color>
+    
+    <!-- 白色 -->
+    <color name="abs__white_color">#ffffffff</color>
+    <!-- 白灰色 -->
+    <color name="abs__white_gray_color">#ffaeaeae</color>
+    <!-- 黑色-->
+    <color name="abs__white_black_color">#ff303030</color>
+
+    <!-- TopTabBar颜色 -->
+    <color name="abs__topTabBarText_normal_color">@color/abs__white_color</color>
+    <!-- 指示器被选中的颜色 -->
+    <color name="abs__indicator_selected_color">#ffff3434</color>
+    <color name="abs__top_divider_color">#fff16d0b</color>
+    <color name="ball_red">#ffff0000</color>
+    
+    <color name="shadow_start">#00000000</color>
+    <color name="shadow_end">#00000000</color>
+</resources>

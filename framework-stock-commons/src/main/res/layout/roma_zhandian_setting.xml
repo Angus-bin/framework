@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+	     <roma.romaway.framework.view.RadioGroup
+	        android:id="@+id/ZhanDianRadioGroup" 
+	        android:orientation="vertical" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="10dip"
+	        android:paddingRight="10dip">
+	        
+	        <!-- <com.romaway.framework.view.PreferenceRadioView
+	            android:id="@+id/ZhanDDianXin"
+	            android:layout_width="fill_parent" 
+	        	android:layout_height="fill_parent"
+	            />
+	        
+			 <com.romaway.framework.view.PreferenceRadioView
+	            android:id="@+id/ZhanDYiDong"
+	            android:layout_width="fill_parent" 
+	        	android:layout_height="fill_parent"
+	            />
+			 
+			 <com.romaway.framework.view.PreferenceRadioView
+	            android:id="@+id/ZhanDLianTong"
+	            android:layout_width="fill_parent" 
+	        	android:layout_height="fill_parent"
+	            /> -->
+		 </roma.romaway.framework.view.RadioGroup>
+</ScrollView>

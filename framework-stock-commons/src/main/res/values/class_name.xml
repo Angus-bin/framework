@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 交易模块显示界面Activity -->
+    <string name="jiaoYiLoginActivity">kds.szkingdom.jiaoyi.android.phone.activity.jy.JiaoYiLoginSherlockFragmentActivity</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mode-ZiXun</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+     <!-- 默认皮肤类型:白色 -->
+    <string name="kconfigs_defaultSkin"></string>
+    
+    <string name="WEIBO_APPKEY">2475808203</string>
+    <string name="wechatShare_FriendAndCircle">wx5aaf0c6f0b137b76</string>
+    <string name="QQ_APPId">1105287923</string>
+    <!--qq和qq空间分享KEY-->
+    <string name="qqAndQzoneShare">1105485289</string>
+    <!--新浪微博分享KEY-->
+    <string name="sinaweiboShare">1066352418</string>
+    
+    <string name="str_image_local">本地图片</string>
+    <string name="cpid_2_0">000000</string>
+    
+</resources>

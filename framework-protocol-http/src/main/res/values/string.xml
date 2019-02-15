@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NetWork_IP">http://api.gutianle.xiaoxiaowu.info/</string>
+    <string name="NetWork_TEST_IP">http://api.guxiansen.test1.romawaysz.com/</string>
+    <string name="NetWork_ONLINE_IP">https://apiguxiansen.romawaysz.com/</string>
+</resources>

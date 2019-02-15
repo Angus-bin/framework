@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] -->
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <!-- Content description for the action bar "up" affordance. [CHAR LIMIT=NONE] -->
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <!-- Content description for the action menu overflow button. [CHAR LIMIT=NONE] -->
+    <string name="abs__action_menu_overflow_description">More options</string>
+
+    <!-- Label for the "Done" button on the far left of action mode toolbars. -->
+    <string name="abs__action_mode_done">Done</string>
+
+    <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with_application">Share with <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+
+    <!-- SearchView accessibility description for search button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_search">Search</string>
+    <!-- SearchView accessibility description for search text field [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_query">Search query</string>
+    <!-- SearchView accessibility description for clear button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_clear">Clear query</string>
+    <!-- SearchView accessibility description for submit button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_submit">Submit query</string>
+    <!-- SearchView accessibility description for voice button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_voice">Voice search</string>
+
+    <!-- PreferenceItemView默认图文布局控件 -->
+    <string name="roma_preference_image_text_view">Preference_Image_Text</string>
+    <!-- PreferenceItemView纯图片布局控件 -->
+    <string name="roma_preference_only_image_view">Preference_Only_Image</string>
+    <!-- PreferenceItemView文本灰色背景布局控件 -->
+    <string name="roma_preference_gray_text_view">Preference_Gray_Text</string>
+
+    <!-- PreferenceItemView默认图文布局控件 -->
+    <string name="roma_shortcut_layoutType">CustomBottomViewLayout</string>
+
+	<string name="abs__pull_refresh">下拉刷新</string>
+    <string name="abs__release_to_refresh">释放刷新</string>
+    <string name="abs__refreshing" tools:ignore="TypographyEllipsis">更新中...</string>
+    <string name="abs__update_time">最后更新  </string>
+    <string name="abs__release_to_load">松开加载</string>
+    <string name="abs__loading">正在加载中...</string>
+    <string name="abs__removeItem">Remove</string>
+    
+    <string name="abs_choice_from_photo">从相册中选择</string>
+    <string name="abs_take_a_photo">拍一张照片</string>
+    <string name="abs_cancle">取消</string>
+    
+    <string name="abs__function_enable_toast">版本较低,请检测版本升级!</string>
+    <string name="abs__home_function_enable_toast">该功能暂时未开通,请检测版本升级!</string>
+    <string name="abs__looking_forwoad_toast">敬请期待!</string>
+</resources>

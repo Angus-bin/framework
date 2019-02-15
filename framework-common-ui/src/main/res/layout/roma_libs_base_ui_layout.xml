@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_root"
+    >
+    
+    <FrameLayout 
+        style="@style/title_bar_style"
+        android:id="@+id/fl_title"
+        >
+        
+    </FrameLayout>
+    <com.romalibs.widget.UICenterProgressLayout
+	    xmlns:roma="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/content"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@id/fl_title"
+	    roma:loadingBackgroundColor="#00000000"
+	    roma:emptyBackgroundColor="#00000000"
+	    roma:emptyContentTextColor="#ff888888"
+	    roma:emptyTitleTextColor="#ff888888"
+	    roma:errorBackgroundColor="#00000000"
+	    roma:errorButtonTextColor="#ff888888"
+	    roma:errorContentTextColor="#ff888888"
+	    roma:errorTitleTextColor="#ff888888">
+    
+    </com.romalibs.widget.UICenterProgressLayout>
+    
+     <RelativeLayout  
+	    android:id="@+id/fl_keyboard_root"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="bottom"
+	 />
+</RelativeLayout>

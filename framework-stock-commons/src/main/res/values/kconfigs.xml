@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- 自选股界面Fragment -->
+    <string name="hqUserStockFragment">kds.szkingdom.android.phone.activity.hq.KdsUserStockSherlockFragmentNewNew</string>
+    <!-- 自选股是否区分上证指数000001与999999 -->
+    <item name="kconfigs_is_Difference_to_shangzheng" format="boolean" type="bool">false</item>
+    <!-- 键盘精灵当只有一只股票时是否进行跳转 -->
+    <item name="kconfigs_is_goto_DataInfo" format="boolean" type="bool">true</item>
+    <!-- 是否定时上传自选股 -->
+    <item name="kconfigs_isTimingUploadUserStock" format="boolean" type="bool">true</item>
+    <!-- 是否支持自选股云同步(建投个性化) -->
+    <item name="kconfigs_isSupportUserStockCloudSync" format="boolean" type="bool">false</item>
+    <!-- 测速请求是否包含IP -->
+    <item name="kconfigs_ping_hasIP" format="boolean" type="bool">true</item>
+    <!-- 是否支持超级用户修改认证地址 -->
+    <item name="kconfigs_isSupport_superUser_changeAuthAddr" format="boolean" type="bool">false</item>
+    <!-- 是否支持超级用户控制站点修改地址 -->
+    <item name="kconfigs_isSupport_superUser_controlSite" format="boolean" type="bool">false</item>
+
+    <item name="kconfigs_hasHQCache"  format="boolean" type="bool">true</item><!-- 开通行情缓存 -->
+
+    <!-- 个股详情界面，是否有f10 -->
+    <item name="kconfigs_hasF10" format="boolean" type="bool">true</item>
+
+    <!-- *********************** 是否含有信息地雷设置************************* -->
+    <item name="kconfigs_hasXXDL" format="boolean" type="bool">false</item>
+
+    <!-- *********************** 是否含有站点选择************************* -->
+    <item name="kconfigs_hasSelectSite" format="boolean" type="bool">true</item>
+
+    <!-- 是否允许自定义K线均线 -->
+    <item name="kconfigs_hasCustomKLineMA" format="boolean" type="bool">false</item>
+
+    <!-- 是否允许点击全局进行跳转 -->
+    <item name="kconfigs_hasClickGlobalToIntent" format="boolean" type="bool">true</item>
+
+    <!-- 交易界面是否允许自定义字体大小  -->
+    <item name="kconfigs_hasCustomFont" format="boolean" type="bool">false</item>
+
+    <!-- 是否支持问卷调查 -->
+    <item name="kconfigs_isSupportQuestionSurvey" format="boolean" type="bool">false</item>
+    <!-- 是否有资金代码绑定 -->
+    <item name="kconfigs_supportAccountBind" format="boolean" type="bool">false</item>
+    <!-- 中信建投的股份转让功能 -->
+    <item name="kconfigs_hasGFZR" format="boolean" type="bool">false</item>
+    <!-- 交易买卖界面的右按钮是否是刷新 -->
+    <item name="kconfigs_RightIsRefresh" format="boolean" type="bool">false</item>
+    <!-- 是否支持港股通 -->
+    <item name="kconfigs_isSupportGGT" format="boolean" type="bool">false</item>
+
+    <!-- 首页url -->
+	<string name="kconfigs_home_url"></string>
+	<!-- 个股资讯、F10及诊断 -->
+	<!-- 新闻 -->
+	<string name="kconfigs_news_url"></string>
+	<!-- 公告 -->
+	<string name="kconfigs_gonggao_url"></string>
+	<!-- 研报 -->
+	<!-- F10 -->
+	<string name="kconfigs_yanbao_url"></string>
+	<!-- 主力 -->
+	<string name="kconfigs_zhuli_url"></string>
+	<!-- 简况 -->
+	<string name="kconfigs_jiankuang_url"></string>
+	<!-- 财务 -->
+	<string name="kconfigs_caiwu_url"></string>
+	<!-- 股东 -->
+	<string name="kconfigs_gudong_url"></string>
+	<!-- 诊断 -->
+	<string name="kconfigs_zhenduan_url"></string>
+
+	<!-- 资讯 -->
+	<!-- 要闻（市场观点） -->
+	<string name="kconfigs_main_news_url"></string>
+	<!-- 行业（大行行业研报） -->
+	<string name="kconfigs_hangye_url"></string>
+	<!-- 关注（自选股新闻、公告、研报） -->
+	<string name="kconfigs_notice_url"></string>
+
+	<string name="kds_inner_version_show"></string>
+
+	<!-- 自助开户url -->
+	<string name="kconfigs_self_service_account_download_url"></string>
+	<!-- 自助开户apk包名 -->
+	<string name="kconfigs_self_service_account_package_namel"></string>
+    <!-- 自助开户WebUrl地址 -->
+    <string name="kconfigs_self_service_account_web_url"></string>
+    <!-- 现管计划Url地址 -->
+    <string name="kconfigs_xgjh_web_url"></string>
+    <!-- 投顾产品Url地址 -->
+    <string name="kconfigs_tgcp_web_url"></string>
+
+	 <!-- 是否支持可配置功能 ，而是采用本地默认配置-->
+    <item name="kconfigs_isSupportConfigDownload" format="boolean" type="bool">false</item>
+    <!-- 默认皮肤类型 -->
+    <string name="kconfigs_defaultSkin">BLACK_SKIN</string>
+
+    <!-- 开户类型  0:下载apk开户；1, 2：直接进入开户页面，如东莞证券/中信建投-->
+    <string name="kcongigs_selfserviceAccounttype">0</string>
+    <!-- 默认H5升级类别: 影响启动时解压是否提示交易更新提示 -->
+    <integer name="kcongigs_default_h5_upgradeCategory">1</integer>
+
+    <!-- 是否支持启动页加载广告 -->
+    <item name="kconfigs_isStartAdv" format="boolean" type="bool">false</item>
+    <!-- 是否支持Banner广告图触发快捷菜单功能Key -->
+    <item name="kconfigs_isHomeAdvUseShortcutMenuKey" format="boolean" type="bool">false</item>
+	<!-- 是否切换账号后不删除本地自选股, 仅做合并 -->
+    <item name="kconfigs_isDeleteLocalUserStock" format="boolean" type="bool">false</item>
+	<!-- 是否将键盘精灵手动添加的自选股也添加至搜索历史 -->
+    <item name="kconfigs_isAddStockToSearchHistory" format="boolean" type="bool">true</item>
+    <!-- ActionBar返回按钮是否先hideKeyboard, 否则直接退出 -->
+    <item name="kconfigs_isHideKeyboard_to_exit" format="boolean" type="bool">true</item>
+	<!-- 初始化登录失败是否停留启动界面而不提供网络设置 -->
+	<item name="kconfigs_isInitLoginFailStayCurrent" format="boolean" type="bool">false</item>
+    <!-- 资讯界面列表项文字布局是否不以XML布局为准 -->
+	<item name="kconfigs_ZXListItem_isNoAsXmlReference" format="boolean" type="bool">true</item>
+    <!-- 对话框 是否使用统一样式对话框控件 -->
+	<item name="kconfigs_dialog_isUseCommonDialogView" format="boolean" type="bool">false</item>
+    <!-- 对话框 Dialog布局是否显示Title文本 -->
+	<item name="kconfigs_dialog_isShowTitleView" format="boolean" type="bool">true</item>
+    <!-- 开户下载对话框 是否个性化按钮配色  -->
+	<item name="kconfigs_dialog_installApp_isCustomBtnColor" format="boolean" type="bool">false</item>
+    <!-- 分享等PopupWindow控件 是否同Dialog对话框一样弹出时背景变暗动画 -->
+	<item name="kconfigs_popupWindow_isShowDimBgAnimaton" format="boolean" type="bool">false</item>
+    <!-- 投顾界面Fragment -->
+    <string name="TouguZuheFragment">kds.szkingdom.commons.android.tougu.TouguZuheFragment</string>
+    <!-- 用户登录 是否启用语音验证码功能 -->
+	<item name="kconfigs_isSupportLoginVoiceVerify" format="boolean" type="bool">false</item>
+    <!-- 是否支持键盘宝 2.0 的版本 -->
+    <item name="kconfigs_isSupport_keyboard_v2_0" format="boolean" type="bool">false</item>
+    <!-- 是否支持老版键盘精灵是否支持中文搜索 -->
+    <item name="kconfigs_isSupport_keyboard_search_cn" format="boolean" type="bool">true</item>
+    <!-- 是否长文本展示界面(关于我们, 资讯等)采用个性化ActionBar背景色 -->
+    <item name="kconfigs_isShowPersonaliseActionBarBgColor" format="boolean" type="bool">false</item>
+    <!-- 是否显示优问入口 目前仅建投使用 -->
+    <item name="kconfigs_isShow_YouWen_Entry" format="boolean" type="bool">false</item>
+    <!-- 浏览组合是否显示风险提示 目前仅建投使用 -->
+    <item name="kconfigs_Zuhe_isShow_Risk_Warning" format="boolean" type="bool">false</item>
+</resources>

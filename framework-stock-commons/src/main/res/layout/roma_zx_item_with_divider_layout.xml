@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/zixun_marginTop_height"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_zx_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/zx_title_color"
+            android:textSize="@dimen/zixun_title_textsize" />
+
+        <TextView
+            android:id="@+id/txt_zx_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/zixun_marginTop_height"
+            android:gravity="right"
+            android:textColor="@color/zx_time_color"
+            android:textSize="@dimen/zixun_time_textsize" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abs__divider_size"
+        android:background="@color/abs__divider_color" />
+</com.zhy.autolayout.AutoLinearLayout>

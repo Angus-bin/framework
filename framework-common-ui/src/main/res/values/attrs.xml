@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UICenterProgressLayout">
+        <attr name="loadingProgressBarWidth" format="dimension"/>
+        <attr name="loadingProgressBarHeight" format="dimension"/>
+        <attr name="loadingBackgroundColor" format="color"/>
+
+        <attr name="emptyImageWidth" format="dimension"/>
+        <attr name="emptyImageHeight" format="dimension"/>
+        <attr name="emptyTitleTextSize" format="dimension"/>
+        <attr name="emptyContentTextSize" format="dimension"/>
+        <attr name="emptyTitleTextColor" format="color"/>
+        <attr name="emptyContentTextColor" format="color"/>
+        <attr name="emptyBackgroundColor" format="color"/>
+
+        <attr name="errorImageWidth" format="dimension"/>
+        <attr name="errorImageHeight" format="dimension"/>
+        <attr name="errorTitleTextSize" format="dimension"/>
+        <attr name="errorContentTextSize" format="dimension"/>
+        <attr name="errorTitleTextColor" format="color"/>
+        <attr name="errorContentTextColor" format="color"/>
+        <attr name="errorButtonTextColor" format="color"/>
+        <attr name="errorBackgroundColor" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsDividerWidth" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsPaddingMiddle" format="boolean" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsTabTextSize" format="dimension" />
+        <attr name="pstsTabTextColor" format="reference" />
+        <attr name="pstsTabTextStyle" format="reference">
+            <flag name="normal" value="0x0" />
+            <flag name="bold" value="0x1" />
+            <flag name="italic" value="0x2" />
+        </attr>
+        <attr name="pstsTabTextAllCaps" format="boolean" />
+        <attr name="pstsTabTextAlpha" format="integer" />
+        <attr name="pstsTabTextFontFamily" format="string" />
+    </declare-styleable>
+    
+</resources>

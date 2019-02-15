@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 弹出窗口的动画时间 -->
+    <integer name="popupwindow_animtime">@android:integer/config_shortAnimTime</integer>
+    
+    
+    <style name="AnimationPopup">
+		<item name="android:windowEnterAnimation">@anim/search_dialog_enter</item>
+		<item name="android:windowExitAnimation">@anim/search_dialog_exit</item>
+	</style>
+	<style name="SearchDialogTheme">
+		<item name="android:windowAnimationStyle">@style/AnimationPopup</item>
+		<item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+	</style>
+</resources>

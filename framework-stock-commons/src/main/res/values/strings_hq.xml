@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自选股票 -->
+    <string-array name="hq_zx_titles">
+        <item>证券名称</item>
+        <item>现价</item>
+        <item>涨跌幅%</item>
+        <item>涨跌</item>
+        
+        <!--<item>买入价</item>
+        <item>卖出价</item>-->
+        <item>昨收</item>
+        <item>总量</item>
+        <item>金额</item>
+        
+        <item>今开</item>
+        <item>最高</item>
+        <item>最低</item>
+        <item>市盈率</item>
+        <item>换手%</item>
+    </string-array>
+
+    <integer-array name="hq_zx_id">
+        <item>3</item>
+        <item>2</item>
+        <item>9</item>
+        <item>37</item>
+        <item>36</item>
+        
+        <!--<item>16</item>
+        <item>26</item>-->
+        
+        <item>4</item>
+        <item>10</item>
+        <item>11</item>
+        
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>45</item>
+        <item>44</item>
+    </integer-array>
+    
+    <integer-array name="hq_ggt_zx_id">
+        <item>3</item>
+        <item>2</item>
+        <item>9</item>
+        <item>37</item>
+        <item>36</item>
+        
+        <item>16</item>
+        <item>26</item>
+        
+        <item>4</item>
+        <item>10</item>
+        <item>11</item>
+        
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <!-- <item>45</item>
+        <item>44</item> -->
+    </integer-array>
+    <string name="add_str"></string>
+
+    <!-- 键盘精灵 股票代码前后添加的内容: 默认“(600001)" -->
+    <string-array name="key_search_stock_code_additional_texts">
+        <item>(</item>
+        <item>)</item>
+    </string-array>
+
+    <!-- 股票详情界面买卖五档文字 -->
+    <string-array name="hq_stock_detail_buy_five_speed">
+        <item>买五</item>
+        <item>买四</item>
+        <item>买三</item>
+        <item>买二</item>
+        <item>买一</item>
+    </string-array>
+    <string-array name="hq_stock_detail_sale_five_speed">
+        <item>卖五</item>
+        <item>卖四</item>
+        <item>卖三</item>
+        <item>卖二</item>
+        <item>卖一</item>
+    </string-array>
+
+    <!-- 港股股票详情界面买卖三档文字 -->
+    <string-array name="hq_stock_detail_buy_three_speed">
+        <item>买三</item>
+        <item>买二</item>
+        <item>买一</item>
+    </string-array>
+    <string-array name="hq_stock_detail_sale_three_speed">
+        <item>卖三</item>
+        <item>卖二</item>
+        <item>卖一</item>
+    </string-array>
+
+    <!-- 股票详情界面买卖一档文字 -->
+    <string-array name="hq_stock_detail_buy_one_speed">
+        <item>买一</item>
+    </string-array>
+    <string-array name="hq_stock_detail_sale_one_speed">
+        <item>卖一</item>
+    </string-array>
+</resources>

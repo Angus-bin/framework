@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="jy_hide_keybord_btn_height">40dp</dimen>
+	<!-- 资讯列表标题字体大小 -->
+	<dimen name="zx_list_title_textsize">17dp</dimen>
+	<!-- 资讯列表时间字体大小 -->
+	<dimen name="zx_list_time_textsize">15dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kds="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/gxs_while"
+        kds:layout_auto_basewidth="height">
+
+        <ImageView
+            android:id="@+id/img_arrows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28px"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/img_arrows_down"
+            kds:layout_auto_basewidth="height|marginRight"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/img_arrows"
+            android:layout_marginLeft="28px"
+            android:layout_marginRight="10px"
+            android:textSize="32px"
+            android:textColor="@color/gxs_title"
+            android:text="一.什么是趋势稳盈？"
+            kds:layout_auto_basewidth="height|marginLeft|textSize|marginRight"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

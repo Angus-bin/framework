@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="3dp"
+    android:keyHeight="@dimen/roma_commons_key_min_height2"
+    android:keyWidth="8.98%p"
+    android:verticalGap="@dimen/roma_commons_key_verticalgap" >
+        
+    <Row>
+                
+        <Key
+            android:codes="81"
+            android:keyEdgeFlags="left"
+            android:keyLabel="Q" />
+                
+        <Key
+            android:codes="87"
+            android:keyLabel="W" />
+                
+        <Key
+            android:codes="69"
+            android:keyLabel="E" />
+                
+        <Key
+            android:codes="82"
+            android:keyLabel="R" />
+                
+        <Key
+            android:codes="84"
+            android:keyLabel="T" />
+                
+        <Key
+            android:codes="89"
+            android:keyLabel="Y" />
+                
+        <Key
+            android:codes="85"
+            android:keyLabel="U" />
+                
+        <Key
+            android:codes="73"
+            android:keyLabel="I" />
+                
+        <Key
+            android:codes="79"
+            android:keyLabel="O" />
+                
+        <Key
+            android:codes="80"
+            android:keyEdgeFlags="right"
+            android:keyLabel="P" />
+        
+    </Row>
+        
+    <Row>
+                
+        <Key
+            android:codes="65"
+            android:horizontalGap="6.466666%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="A" />
+                
+        <Key
+            android:codes="83"
+            android:keyLabel="S" />
+                
+        <Key
+            android:codes="68"
+            android:keyLabel="D" />
+                
+        <Key
+            android:codes="70"
+            android:keyLabel="F" />
+                
+        <Key
+            android:codes="71"
+            android:keyLabel="G" />
+                
+        <Key
+            android:codes="72"
+            android:keyLabel="H" />
+                
+        <Key
+            android:codes="74"
+            android:keyLabel="J" />
+                
+        <Key
+            android:codes="75"
+            android:keyLabel="K" />
+                
+        <Key
+            android:codes="76"
+            android:keyEdgeFlags="right"
+            android:keyLabel="L" />
+        
+    </Row>
+        
+    <Row>
+                
+        <Key
+            android:codes="-1"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/roma_keyboard_shift"
+            android:keyWidth="13.599998%p" />
+                
+        <Key
+            android:codes="90"
+            android:keyLabel="Z" />
+                
+        <Key
+            android:codes="88"
+            android:keyLabel="X" />
+                
+        <Key
+            android:codes="67"
+            android:keyLabel="C" />
+                
+        <Key
+            android:codes="86"
+            android:keyLabel="V" />
+                
+        <Key
+            android:codes="66"
+            android:keyLabel="B" />
+                
+        <Key
+            android:codes="78"
+            android:keyLabel="N" />
+                
+        <Key
+            android:codes="77"
+            android:keyLabel="M" />
+                
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/roma_keyboard_delete"
+            android:keyWidth="13.599998%p" />
+        
+    </Row>
+        
+    <Row android:rowEdgeFlags="bottom" >
+                
+        <Key
+            android:codes="-2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="123"
+            android:keyWidth="21.500004%p" />
+                
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyLabel="空格"
+            android:keyWidth="53.000000%p" />
+                
+        <Key
+            android:codes="-4"
+            android:keyEdgeFlags="right"
+            android:keyLabel="确定"
+            android:keyWidth="21.500004%p" />
+        
+    </Row>
+
+</Keyboard>

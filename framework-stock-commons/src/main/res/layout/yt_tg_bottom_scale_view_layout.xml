@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:background="#3a84ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/common_margin_width_big"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="现金"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_auto_basewidth="height|textSize" />
+
+    <TextView
+        android:id="@+id/tv_proportion_of_surplus"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/common_margin_width_big"
+        android:gravity="right|center_vertical"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        app:layout_auto_basewidth="height|textSize" />
+</RelativeLayout>

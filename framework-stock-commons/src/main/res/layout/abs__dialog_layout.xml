@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/root"
+    >
+
+	<FrameLayout
+		android:id="@+id/fl_dialog_close"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:padding="6dp"
+		android:visibility="gone">
+
+		<com.trevorpage.tpsvg.SVGView
+			android:id="@+id/svg_dialog_close"
+			android:layout_width="7dp"
+			android:layout_height="7dp" />
+	</FrameLayout>
+
+	<View
+		android:id="@+id/v_view_space_top"
+		android:layout_width="match_parent"
+		android:layout_height="18dp"
+		android:layout_alignParentTop="true" />
+   
+    <LinearLayout
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/v_view_space_top"
+		android:layout_centerHorizontal="true"
+		android:background="@android:color/transparent"
+		android:paddingBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="left"
+        >
+        <TextView
+            android:id="@+id/title_text" 
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:textColor="#ff4d4d4d"
+	    	android:textSize="@dimen/abs__font_size1"
+            />
+    </LinearLayout>
+    
+    <View 
+       android:id="@+id/divider_top"
+       android:layout_width="fill_parent"
+   	   android:layout_height="0.7dp"
+   	   android:layout_below="@id/dialog_title"
+   	   android:layout_centerHorizontal="true"
+   	   android:background="#ffcfcfcf"
+   	   android:visibility="gone"
+       />
+   <FrameLayout
+       android:id="@+id/dialog_center_info" 
+       android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:layout_below="@id/divider_top"
+	   android:layout_centerHorizontal="true"
+	   android:layout_marginLeft="20dp"
+	   android:layout_marginRight="20dp"
+   	   android:padding="5dip"
+	   android:background="@android:color/transparent"
+       >
+       
+   </FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/dialog_center_info2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/dialog_center_info"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:visibility="gone"
+		android:background="@android:color/transparent" />
+   
+   <View 
+       android:id="@+id/divider_bottom"
+       android:layout_width="fill_parent"
+   	   android:layout_height="1dp"
+   	   android:layout_below="@id/dialog_center_info"
+   	   android:layout_centerHorizontal="true"
+   	   android:background="#ffcecece"
+   	   android:visibility="gone"
+       />
+    
+   <LinearLayout 
+       android:id="@+id/bottom_rootroot"
+       android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="horizontal"
+	   android:layout_below="@id/divider_bottom"
+	   android:layout_centerHorizontal="true"
+	   android:layout_marginLeft="15dp"
+	   android:layout_marginRight="15dp"
+	   android:layout_marginTop="18dp"
+	   android:background="@android:color/transparent"
+       >
+	   	<View
+		   android:id="@+id/v_view_space_left"
+		   android:layout_width="0px"
+		   android:layout_height="0px"
+		   android:visibility="gone"/>
+        <Button 
+            android:id="@+id/CancleButton"
+            android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:layout_marginBottom="15dp"
+	   		android:singleLine="true"
+	   		android:layout_weight="1.0"
+	   		android:text="@string/roma_exit_dialog_cancel"
+	   		style="@style/ROMAButtonStyleShapGains"
+            />
+         <View 
+           android:id="@+id/v_view_space"
+	       android:layout_width="25dp"
+	   	   android:layout_height="match_parent"
+	   	   />
+        <Button 
+            android:id="@+id/SureButton"
+            android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1.0"
+	   		android:layout_marginBottom="15dp"
+	   		android:text="@string/roma_exit_dialog_sure"
+	   		style="@style/ROMAButtonStyleShapRed"
+            />
+	   	<View
+		   android:id="@+id/v_view_space_right"
+		   android:layout_width="0px"
+		   android:layout_height="0px"
+		   android:visibility="gone"/>
+   </LinearLayout>
+	<TextView
+            android:id="@+id/bottom_text" 
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:layout_below="@id/bottom_rootroot"
+	    	android:layout_marginLeft="10dp"
+	   		android:layout_marginRight="10dp"
+	   		android:layout_marginTop="5dp"
+	   		android:paddingBottom="10dp"
+	    	android:textColor="#ff000000"
+	    	android:textSize="13dp"
+	    	android:visibility="gone"
+	    	android:text=""
+            />
+</RelativeLayout>
+

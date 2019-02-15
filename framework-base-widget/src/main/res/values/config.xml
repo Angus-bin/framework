@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+           <!-- 是否显示国元大盘两个Item -->
+    <item name="hq_zixuan_is_show_guoyuan_dapan" format="boolean" type="bool">false</item>
+    <!--底部标题栏是否显示选中背景色-->
+    <item name="is_show_bottomBar_select_background" format="boolean" type="bool">false</item>
+    <!--设置行情港股通等页面股票标识是否使用图片-->
+    <item name="is_roma_stock_mark_use_img" format="boolean" type="bool">false</item>
+</resources>

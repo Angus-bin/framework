@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kds="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actionbar_title"
+    android:layout_width="match_parent"
+    android:layout_height="88px"
+    kds:layout_auto_basewidth="height"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/ll_img_left"
+        android:layout_width="100px"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_img_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/tv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_img_right2"
+        android:layout_width="70px"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/rl_img_right"
+        android:visibility="gone"
+        kds:layout_auto_basewidth="height">
+
+        <ImageView
+            android:id="@+id/img_right2"
+            android:layout_width="@dimen/actionbar_icon_view_side"
+            android:layout_height="@dimen/actionbar_icon_view_side"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/roma_web_search_icon"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

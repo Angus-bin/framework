@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/abs__font_size2"
+        android:textColor="@color/abs__topTabBarText_normal_color"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/tv_flag"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignLeft="@id/TextView"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/roma_tg_red_point_shape"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+</RelativeLayout>

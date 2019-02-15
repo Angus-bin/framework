@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kds="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <include layout="@layout/roma_actionbar_title_layout" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#222222"
+                android:text="信息购买服务说明"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="42px" />
+
+            <TextView
+                android:id="@+id/tv_sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:text=""
+                android:visibility="gone"
+                android:gravity="center_horizontal" />
+
+            <!--<com.actionbarsherlock.JustifyTextView
+                android:id="@+id/tv_risk_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#333333"
+                android:textSize="18dp"/>-->
+
+            <TextView
+                android:id="@+id/tv_risk_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#333333"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/ll_zuhe_risk_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#ededed"
+            android:layout_height="0.5dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="我知道了"
+            android:textSize="18dp"
+            android:textColor="#ff3d00"/>
+
+    </LinearLayout>
+
+</LinearLayout>

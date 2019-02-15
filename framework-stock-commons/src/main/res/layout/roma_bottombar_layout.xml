@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+    >
+    <View
+		android:id="@+id/roma_bottombar_divider"
+        android:layout_width="match_parent"
+	    android:layout_height="0.5dip"
+	    android:background="#00000000"
+        />
+	<com.romaway.framework.view.RomaWayBottomBarWorkspace
+	    android:id="@+id/kbbw_bottombarShortcut"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	</com.romaway.framework.view.RomaWayBottomBarWorkspace>
+</LinearLayout>

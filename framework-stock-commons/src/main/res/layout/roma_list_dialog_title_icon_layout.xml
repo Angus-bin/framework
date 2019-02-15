@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:clipChildren="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/yt_dialog_layout_icon_top"
+    android:background="@color/transparent">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/root"
+        android:layout_width="@dimen/yt_dialog_layout_width_new"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114px"
+        android:background="@android:color/white"
+        app:layout_auto_basewidth="height|marginTop|marginBottom">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="56px">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/yt_dialog_confirm_textColor"
+                app:layout_auto_basewidth="height|textSize"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/title_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="重大事件不再错过"
+                android:textColor="#000000"
+                app:layout_auto_basewidth="height|textSize"
+                android:textSize="36px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:id="@+id/divider_top"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/dialog_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/yt_dialog_layout_marginLeft"
+            android:layout_marginRight="@dimen/yt_dialog_layout_marginRight"
+            android:layout_marginTop="30px"
+            android:background="#F2F2F2"
+            app:layout_auto_basewidth="height|marginLeft|marginRight" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_top"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/yt_dialog_layout_marginLeft"
+            android:layout_marginRight="@dimen/yt_dialog_layout_marginRight"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_auto_basewidth="height|marginLeft|marginRight">
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:id="@+id/divider_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/ll_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:background="#EDEDED" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/bottom_rootroot"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_below="@id/divider_bottom"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/CancleButton"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@android:color/transparent"
+                android:text="@string/roma_exit_dialog_cancel"
+                android:textSize="30px" />
+
+            <View
+                android:id="@+id/center_divider_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#EDEDED"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/SureButton"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@android:color/transparent"
+                android:text="知道了"
+                android:textColor="@color/yt_dialog_confirm_textColor"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <ImageView
+        android:id="@+id/icon_dialog"
+        android:layout_width="@dimen/yt_dialog_layout_width_new"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        app:layout_auto_basewidth="height|paddingRight|paddingLeft|paddingTop"
+        android:src="@drawable/roma_dialog_notice_icon" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

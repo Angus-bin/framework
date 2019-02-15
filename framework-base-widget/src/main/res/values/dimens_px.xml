@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--热点聚焦等控件Title-->
+    <dimen name="preference_title_textsize">34px</dimen>
+    <dimen name="preference_layout_height">90px</dimen>
+    <dimen name="home_preference_layout_height">70px</dimen>
+</resources>

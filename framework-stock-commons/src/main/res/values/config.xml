@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="defaultserver"></string>
+    <string name="cpid"></string>
+	<string name="client_type"></string>
+    <string name="appid"></string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~券商选择站点~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <string-array name="defaultserveraddress">
+    </string-array>
+    <string-array name="defaultservernames">
+    </string-array>
+    <integer-array name="defaulthttpsport"></integer-array>
+
+    <string name="roma_test_serverurl"></string>
+    <item name="roma_test_https_port" format="integer" type="integer">21900</item>
+
+    <!-- 自选股同步 帐号类型  0：手机号码；1：资金密码。2:imei, 3:sim,4:用户名 -->
+    <string name="mystock_sync_accounttype">0</string>
+    
+    <!-- web资讯子目录，若存在，则以"/"开始，如"/stock" -->
+    <string name="webzixun_subfolder"></string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~ 交易超时，行情刷新~~~~~~~~~~~~~~~~~~~ -->
+    <string name="pName_refresh_time">REFRESH_TIME</string>
+    <string name="key_hq_refresh_time">key_hq_refresh_time</string>
+    <string name="key_jy_outtime">key_jy_outtime</string>
+
+    <!--收藏委托股票-->
+    <string name="key_sc_principal_stock">key_sc_principal_stock</string>
+    <string name="key_sc_stock">key_sc_stock</string>
+    <!--是否添加自动委托收藏开关-->
+    <item name="is_add_principal_sc_stock" format="boolean" type="bool">true</item>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~首次登陆是否显示帮助提醒，选择为1，不选择为0~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <string name="firstTimeChoseHelp">0</string>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~首次运行添加默认自选股，选择为1，不选择为0~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <string name="firstTimeAddDefaultStock">1</string>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~基金开户答题测评状态-0无,1有 -->
+    <item name="fundTesting" format="integer" type="dimen">0</item>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~基金登陆是否需要风险提示  0不提醒 1提醒 -->
+    <item name="isFundNotice" format="integer" type="dimen">1</item>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~基金首页列表界面除认购、申购、开户、定投之外需不需 风险提示 0不提醒 1提醒 -->
+    <item name="isNeedNotice" format="integer" type="dimen">1</item>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~基金首页列表界面除认购、申购、开户、定投永不需 风险提示 0提醒 1不提醒 -->
+    <item name="neverNeedNotice" format="integer" type="dimen">0</item>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~交易登陆是否需要系统状态提醒   0不提醒 1提醒 -->
+    <item name="isTradeFXTX" format="integer" type="dimen">0</item>
+
+    <string name="firstTimeChosefxts">风险提醒内容</string>
+    <!-- 融资融券 银证转账是否要 银行余额    0 不需要  1： 需要 -->
+    <item name="isYYYE" format="integer" type="dimen">0</item>
+    <!-- 普通交易-银证转账是否列表显示 -->
+    <string name="jy_yzzz_mode">0</string>
+    <!-- 融资融券-担保品划转需不需要验证   0不需要     1需要 -->
+    <string name="rzrq_dbp_check">0</string>
+    <!-- 场内基金是否在交易界面  0在交易里面   1在导航12宫格    用于超时判断 -->
+    <item name="isOutCNJJ" format="integer" type="dimen">1</item>
+
+    <!-- 基金开户   0不支持机构开户     1支持机构开户 -->
+    <string name="jj_openaccount_mode">0</string>
+    <!-- 报价转让主界面标题栏是否可点击：1：可点   0：不可点 -->
+    <string name="isbjzr_home_clickable">0</string>
+
+    <!-- 支持软件简介滑到最好一张图片自动退出：1：支持   0：不支持 -->
+    <string name="isTheLastImageOut">0</string>
+
+    <!-- 基金是否需要历史委托   0不需要     1需要 -->
+    <string name="jjlswt_mode">1</string>
+    <!-- 基金是否需要历史成交   0不需要     1需要 -->
+    <string name="jjlscj_mode">1</string>
+    <!-- 关于我们   0cs模式     1弹出框 -->
+    <string name="about_mode">1</string>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~基金是否允许多撤  0不许 1允许 -->
+    <item name="isManyRevoke" format="integer" type="dimen">1</item>
+    <!-- 股票预警时段是否有9：00_23:00 -->
+    <string name="gpyj_time">0</string>
+
+    <!-- asserts内预置的键盘精灵数据库所对应的版本日期 -->
+    <item name="stockdb_datever" format="integer" type="dimen">20150707</item>
+
+    <!-- 友盟统计 appkey -->
+    <string name="umeng_app_key"></string>
+    <!-- 友盟统计 渠道号 -->
+    <string name="umeng_channel_Id"></string>
+    <!-- 第三方统计 统计用户唯一标识标签 -->
+    <string name="roma_accountMarkTag"></string>
+
+    <!-- 允许使用umeng sdk -->
+    <item name="enable_umeng" format="boolean" type="bool">true</item>
+    <!-- 是否建投类型的资讯详情分享 ,有分享摘要-->
+    <item name="is_similar_jiantou_zixun_share" format="boolean" type="bool">false</item>
+
+    <!-- 交易电子签约协议请求版本号 -->
+    <item name="version_number_jy_dzqy" format="integer" type="dimen">1</item>
+
+    <!-- 理财中心是否需要信用资金账号登陆    0 不需要；1 需要 -->
+    <item name="hasCreditAccount" format="boolean" type="bool">false</item>
+    <!-- 国元的关联资讯 -->
+    <item name="guoyuan_guanlianzixun" format="boolean" type="bool">false</item>
+    <!-- 现金宝功能true，元增利功能false -->
+    <item name="xjb" format="boolean" type="bool">true</item>
+    <item name="hqDefaultRefreshTimes" format="integer" type="integer">5000</item>
+    <item name="jyDefaultOutTimes" format="integer" type="integer">10</item>
+
+    <!-- 分享ID配置：微信好友以及朋友圈ID -->
+    <string name="wechatShare_FriendAndCircle"></string>
+    <string name="localName">localName</string>
+    <!--qq和qq空间分享KEY-->
+    <string name="qqAndQzoneShare"></string>
+    <!--新浪微博分享KEY-->
+    <string name="sinaweiboShare"></string>
+
+  	<!-- 特定功能平台版本（1：东莞证券  2：国元证券 ），对应PlatformConfig.java中的平台编号 -->
+    <item name="platform_version" formant="interger" type="integer">1</item>
+    <!-- 键盘精灵是否显示融资融券、港股标识 -->
+    <item name="keyboardelf_is_show_stock_mark" format="boolean" type="bool">false</item>
+    <!-- 键盘精灵是否支持纯图标表示加/已自选 -->
+    <item name="keyboardelf_isSupport_showIconAsStatus" format="boolean" type="bool">false</item>
+
+    <!-- 股票预警 -->
+    <item name="WarningSet" format="boolean" type="bool">false</item>
+    <!-- 是否是使用roma的推送-->
+    <item name="is_roma_push" format="boolean" type="bool">false</item>
+    <!-- 是否是建投roma推送，因为顾及到不同券商使用roma推送，有不同实现需求-->
+    <item name="is_jiantou_roma_push" format="boolean" type="bool">false</item>
+    <!-- 是否是建投roma推送，因为顾及到不同券商使用roma推送，有不同实现需求-->
+    <item name="is_guoyuandianjin_roma_push" format="boolean" type="bool">false</item>
+    <!-- 是否支持中信建投个性化推送 -->
+    <item name="kconfig_isSupport_upush" format="boolean" type="bool">true</item>
+    <!-- 是否是中信建投显示未读数，设置这个是因为中信建投显示未读数的位置跟标准版的不一样-->
+    <item name="is_zxjt_show_unread_infos" format="boolean" type="bool">false</item>
+    <!-- 是否打开股票详情的重力感应 -->
+    <item name="is_open_sensor" format="boolean" type="bool">false</item>
+    <!-- 注册登录界面是否显示带点的键盘 -->
+    <item name="login_is_show_point_keyboard" format="boolean" type="bool">false</item>
+    <!-- 注册登录界面 是否显示原生系统键盘 -->
+    <item name="login_is_show_system_keyboard" format="boolean" type="bool">false</item>
+    <!-- 登录时是否必须完成自选股同步才进入主页 -->
+    <item name="login_is_must_synch_stock" format="boolean" type="bool">true</item>
+    <!-- 个人中心界面: 是否支持退出登录手机号-->
+    <item name="configs_isSupportSignOutPhone" format="boolean" type="bool">false</item>
+    <!-- 交易模块的刷新是否是交易内部刷新 -->
+    <item name="h5_handlePageRefresh" format="boolean" type="bool">false</item>
+    <!-- 交易留痕是否包含H5版本号 -->
+    <item name="kconfigs_deviceAddress_hasH5version" format="boolean" type="bool">false</item>
+    <!-- 键盘是否使用键盘宝2.0的 -->
+    <item name="is_use_2_0_keyboard" format="boolean" type="bool">true</item>
+    <!-- 键盘精灵是否调用系统键盘 -->
+    <item name="JPJL_is_use_system_keyboard" format="boolean" type="bool">true</item>
+    <!-- 是否支持复权 -->
+    <item name="hq_stockinfo_is_support_fuquan" format="boolean" type="bool">false</item>
+    <!-- 用户反馈界面: 底部编辑框是否个性化-->
+    <item name="roma_UserBack_edit_isSelf" format="boolean" type="bool">false</item>
+    <!--wusq 160829，是否是行情买卖按钮跳转到H5交易买卖（目前只有世纪这样做），如果是，而且是港股通的话，getIntentInstance值就另外处理，在JiaoYiLoginSherlockFragment进行判断  -->
+    <item name="is_hq_to_buy_and_sell" format="boolean" type="bool">false</item>
+    <!-- 首页是否显示投顾 -->
+    <item name="homepage_isShowTouGu" format="boolean" type="bool">false</item>
+    <!-- 是否显示投顾首页等各界面操作指引 -->
+    <item name="kconfig_isShowTouguGuide" format="boolean" type="bool">false</item>
+    <!-- 推送消息是否以链接形式跳转，目前中信建投为true -->
+    <item name="yt_push_msg_toDetailisUrl" format="boolean" type="bool">false</item>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kds="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gxs_while"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gxs_bg"
+        android:layout_marginRight="28px"
+        android:layout_marginLeft="28px"
+        kds:layout_auto_basewidth="height|marginRight|marginLeft"/>
+
+    <TextView
+        android:id="@+id/tv_note_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="28px"
+        android:layout_marginRight="28px"
+        android:paddingBottom="30px"
+        android:text="容维财经趋势稳盈是一项投资顾问模拟操盘A股的服务。趋势稳盈预设目标收益，止损线和最长运行周期。运行期间，会运用合理的仓位进行操盘，使其收益最大化。您购买趋势稳盈服务后，容维财经会实时向您同步该策略的选股，选时和仓位控制等信息，供您参考。您可以选择是否按该策略跟进，自主交易。"
+        kds:layout_auto_basewidth="height|marginTop|marginRight|marginLeft|paddingBottom"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="@color/gxs_bg"
+        kds:layout_auto_basewidth="height"/>
+
+</com.zhy.autolayout.AutoLinearLayout>
